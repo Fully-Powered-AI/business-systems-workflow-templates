@@ -1,0 +1,46 @@
+{
+  "id": "notification-channel-plan",
+  "name": "Notification channel plan",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "When a business event needs to notify people, the integration owner gets one channel plan from the event definitions: trigger, urgency, who is told by which channel, what needs confirmation, fallbacks and reply handling. Consent and message rules stay as questions. Nothing is sent.",
+  "directory": "https://fullypowered.ai/capabilities/notification-channel-plan/",
+  "primary_function": "functions/business-systems-and-integrations",
+  "functions": [
+    "functions/business-systems-and-integrations"
+  ],
+  "industries": [
+    "industries/software-technology",
+    "industries/ecommerce-and-retail",
+    "industries/logistics-and-trade"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/established-businesses"
+  ],
+  "related": [
+    "internal-change-announcement",
+    "email-sequence-drafting",
+    "appointment-confirmation-and-no-show-follow-up"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own published map of business systems and integrations work."
+    }
+  ]
+}

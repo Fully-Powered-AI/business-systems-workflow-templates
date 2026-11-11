@@ -1,0 +1,47 @@
+{
+  "id": "service-inbox-routing-plan",
+  "name": "Service inbox routing plan",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "When a new service inbox is being set up, the service owner gets a routing plan: each approved address, the queue it should reach and who owns it, checks to run before it goes live, and the wrong-address risks, loop risks and unconfirmed queue owners still open. Nothing is configured.",
+  "directory": "https://fullypowered.ai/capabilities/service-inbox-routing-plan/",
+  "primary_function": "functions/business-systems-and-integrations",
+  "functions": [
+    "functions/business-systems-and-integrations",
+    "functions/customer-support-and-service"
+  ],
+  "industries": [
+    "industries/software-technology",
+    "industries/ecommerce-and-retail",
+    "industries/professional-services"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/established-businesses"
+  ],
+  "related": [
+    "inbox-triage",
+    "support-service-level-definition",
+    "support-ticket-triage"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own published map of business systems and integrations work, and its own method for turning an approved address list and a company's current settings into a reviewable routing plan."
+    }
+  ]
+}

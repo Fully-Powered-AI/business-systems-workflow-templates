@@ -1,0 +1,47 @@
+{
+  "id": "app-data-requirements",
+  "name": "App data requirements",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "When the requirements for an internal app leave fields or actions unclear, the business systems analyst gets one data specification: entities, fields, who reads and writes each, and every unresolved name as a question. Nothing is built or changed.",
+  "directory": "https://fullypowered.ai/capabilities/app-data-requirements/",
+  "primary_function": "functions/business-systems-and-integrations",
+  "functions": [
+    "functions/business-systems-and-integrations",
+    "functions/operations-and-process-improvement"
+  ],
+  "industries": [
+    "industries/professional-services",
+    "industries/software-technology",
+    "industries/ecommerce-and-retail"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/established-businesses"
+  ],
+  "related": [
+    "acceptance-criteria-sheet",
+    "dashboard-brief",
+    "dataset-profile"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Turning the notes, approved rules, existing object definitions and invented sample records behind an internal app request into a data specification: names matched exactly or by meaning and otherwise left open, verbs sorted into read, write, message and unclear, each field given the people who read it and write it with the line that says so, rules checked for the data they need, sample values checked against the definitions, every gap written as a numbered question, and the rule that nothing is built, configured or run on live data, written for this template."
+    }
+  ]
+}

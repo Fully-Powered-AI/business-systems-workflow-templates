@@ -1,0 +1,55 @@
+{
+  "repository": "Fully-Powered-AI/business-systems-capability-templates",
+  "title": "Business Systems and Integrations",
+  "term": "functions/business-systems-and-integrations",
+  "capabilities": [
+    {
+      "id": "app-data-requirements",
+      "name": "App data requirements",
+      "version": "0.1.0",
+      "summary": "When the requirements for an internal app leave fields or actions unclear, the business systems analyst gets one data specification: entities, fields, who reads and writes each, and every unresolved name as a question. Nothing is built or changed.",
+      "path": "app-data-requirements/",
+      "directory": "https://fullypowered.ai/capabilities/app-data-requirements/"
+    },
+    {
+      "id": "crm-field-ownership-map",
+      "name": "CRM field ownership map",
+      "version": "0.1.0",
+      "summary": "Before a CRM sync or field mapping changes, the systems owner gets a field map from the supplied exports and sample records: each field's source, match keys and conflict rule, with unclear keys, consent fields and duplicates left as questions for each field's owner.",
+      "path": "crm-field-ownership-map/",
+      "directory": "https://fullypowered.ai/capabilities/crm-field-ownership-map/"
+    },
+    {
+      "id": "notification-channel-plan",
+      "name": "Notification channel plan",
+      "version": "0.1.0",
+      "summary": "When a business event needs to notify people, the integration owner gets one channel plan from the event definitions: trigger, urgency, who is told by which channel, what needs confirmation, fallbacks and reply handling. Consent and message rules stay as questions. Nothing is sent.",
+      "path": "notification-channel-plan/",
+      "directory": "https://fullypowered.ai/capabilities/notification-channel-plan/"
+    },
+    {
+      "id": "record-sharing-access-matrix",
+      "name": "Record sharing access matrix",
+      "version": "0.1.0",
+      "summary": "When an approved access policy has to reach the CRM, the system owner lays the current sharing setup beside the proposed one, by record type and by role, internal and external. Every change is a question for its owner; inherited and platform-fixed settings are marked unknown.",
+      "path": "record-sharing-access-matrix/",
+      "directory": "https://fullypowered.ai/capabilities/record-sharing-access-matrix/"
+    },
+    {
+      "id": "service-inbox-routing-plan",
+      "name": "Service inbox routing plan",
+      "version": "0.1.0",
+      "summary": "When a new service inbox is being set up, the service owner gets a routing plan: each approved address, the queue it should reach and who owns it, checks to run before it goes live, and the wrong-address risks, loop risks and unconfirmed queue owners still open. Nothing is configured.",
+      "path": "service-inbox-routing-plan/",
+      "directory": "https://fullypowered.ai/capabilities/service-inbox-routing-plan/"
+    },
+    {
+      "id": "workflow-inventory",
+      "name": "Workflow inventory",
+      "version": "0.1.0",
+      "summary": "When the ownership and status of your automated workflows come up for review, the platform owner gets one inventory built from the exports supplied: environments, enabled states, last run, queued runs and owner gaps. Quiet workflows become questions, not removal lists.",
+      "path": "workflow-inventory/",
+      "directory": "https://fullypowered.ai/capabilities/workflow-inventory/"
+    }
+  ]
+}

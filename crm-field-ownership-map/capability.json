@@ -1,0 +1,46 @@
+{
+  "id": "crm-field-ownership-map",
+  "name": "CRM field ownership map",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Before a CRM sync or field mapping changes, the systems owner gets a field map from the supplied exports and sample records: each field's source, match keys and conflict rule, with unclear keys, consent fields and duplicates left as questions for each field's owner.",
+  "directory": "https://fullypowered.ai/capabilities/crm-field-ownership-map/",
+  "primary_function": "functions/business-systems-and-integrations",
+  "functions": [
+    "functions/business-systems-and-integrations"
+  ],
+  "industries": [
+    "industries/software-technology",
+    "industries/professional-services",
+    "industries/ecommerce-and-retail"
+  ],
+  "situations": [
+    "situations/acquisitions-and-integration",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "dataset-profile",
+    "metric-definition-reconciliation",
+    "dashboard-brief"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Mapping shared fields between two systems from supplied schema exports, approved definitions and sample records: the header check that stops on a mismatch, pairing only what the planned mapping states, a source named only where the definitions name one, match keys tested for blanks, repeats, overlap and agreement with a stored cross-reference, fields compared on matched pairs, consent fields held out, and every open point written as a question for the field's business owner, written for this template."
+    }
+  ]
+}
