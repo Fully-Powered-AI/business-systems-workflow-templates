@@ -2,7 +2,7 @@
 
 When a business event needs to notify people, the integration owner gets one channel plan from the event definitions: trigger, urgency, who is told by which channel, what needs confirmation, fallbacks and reply handling. Consent and message rules stay as questions. Nothing is sent.
 
-*Capability template · Business systems and integrations · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/notification-channel-plan/)*
+*Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/notification-channel-plan/)*
 
 ## The outcome
 
@@ -37,7 +37,7 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 - [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/), when notifications built one at a time begin to collide.
 - [Established businesses](https://fullypowered.ai/situations/established-businesses/), where old alerts still run and nobody remembers who reads the replies.
 
-It is separate from [internal change announcement](https://fullypowered.ai/capabilities/internal-change-announcement/), which announces one decided change to staff, and from [email sequence drafting](https://fullypowered.ai/capabilities/email-sequence-drafting/), which writes a series of emails. This plan writes no message; it decides how events reach people. [Appointment confirmation and no-show follow-up](https://fullypowered.ai/capabilities/appointment-confirmation-and-no-show-follow-up/) prepares the contact for one kind of event.
+It is separate from [internal change announcement](https://fullypowered.ai/workflows/internal-change-announcement/), which announces one decided change to staff, and from [email sequence drafting](https://fullypowered.ai/workflows/email-sequence-drafting/), which writes a series of emails. This plan writes no message; it decides how events reach people. [Appointment confirmation and no-show follow-up](https://fullypowered.ai/workflows/appointment-confirmation-and-no-show-follow-up/) prepares the contact for one kind of event.
 
 ## What has to change for your company
 
@@ -45,9 +45,9 @@ Set your urgency scale and how long each level waits for a confirmation. Decide 
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026, and the record is published with it. Small edits made to the instructions and the example after that run have not been run again. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026, and the record is published with it. Small edits made to the instructions and the example after that run have not been run again. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on an event your integration owner already knows well, with cases written in advance: a channel that reports no delivery, an event with no urgency, a reply route nobody reads, a constraint that holds back an urgent message. The integration owner checks every line against the event definitions before anyone builds from it. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on an event your integration owner already knows well, with cases written in advance: a channel that reports no delivery, an event with no urgency, a reply route nobody reads, a constraint that holds back an urgent message. The integration owner checks every line against the event definitions before anyone builds from it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -58,11 +58,11 @@ Testing in your environment means running it on an event your integration owner 
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -72,12 +72,12 @@ Testing in your environment means running it on an event your integration owner 
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
-- [Internal change announcement](https://fullypowered.ai/capabilities/internal-change-announcement/)
-- [Email sequence drafting](https://fullypowered.ai/capabilities/email-sequence-drafting/)
-- [Appointment confirmation and no-show follow-up](https://fullypowered.ai/capabilities/appointment-confirmation-and-no-show-follow-up/)
+- [Internal change announcement](https://fullypowered.ai/workflow templates/internal-change-announcement/)
+- [Email sequence drafting](https://fullypowered.ai/workflow templates/email-sequence-drafting/)
+- [Appointment confirmation and no-show follow-up](https://fullypowered.ai/workflow templates/appointment-confirmation-and-no-show-follow-up/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

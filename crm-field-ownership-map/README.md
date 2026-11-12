@@ -2,7 +2,7 @@
 
 Before a CRM sync or field mapping changes, the systems owner gets a field map from the supplied exports and sample records: each field's source, match keys and conflict rule, with unclear keys, consent fields and duplicates left as questions for each field's owner.
 
-*Capability template · Business systems and integrations · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/crm-field-ownership-map/)*
+*Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/crm-field-ownership-map/)*
 
 ## The outcome
 
@@ -10,7 +10,7 @@ Two systems that both hold the same customer stop overwriting each other by acci
 
 Where the definitions are silent or disagree, the page does not pick. It writes a question for the person who owns that field in the business, with the rows beside it. Identity keys that conflict, consent fields and duplicates that match more than one record always become questions. The page also proposes holding any open field out of the sync until its owner answers.
 
-The capability connects to no system, changes no mapping and moves no data. The integration owner approves the mapping together with the field owners.
+The workflow template connects to no system, changes no mapping and moves no data. The integration owner approves the mapping together with the field owners.
 
 ## Who starts the work, and when
 
@@ -39,17 +39,17 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 - [Acquisitions and integration](https://fullypowered.ai/situations/acquisitions-and-integration/), when two companies' customer systems must be connected.
 - [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/), when a sync built for a small team is stretched to a larger one.
 
-To understand a single export before relying on it, use [dataset profile](https://fullypowered.ai/capabilities/dataset-profile/). For two reports that give different numbers for one measure, use [metric definition reconciliation](https://fullypowered.ai/capabilities/metric-definition-reconciliation/). To plan a dashboard, use [dashboard brief](https://fullypowered.ai/capabilities/dashboard-brief/). This capability is for the fields two systems share.
+To understand a single export before relying on it, use [dataset profile](https://fullypowered.ai/workflows/dataset-profile/). For two reports that give different numbers for one measure, use [metric definition reconciliation](https://fullypowered.ai/workflows/metric-definition-reconciliation/). To plan a dashboard, use [dashboard brief](https://fullypowered.ai/workflows/dashboard-brief/). This workflow template is for the fields two systems share.
 
 ## What has to change for your company
 
-Keep your approved definitions in the form the capability reads, with an owner for every field, and add the source system to each line as decisions are made. Name your consent fields, and name the columns that must appear as counts only. Decide which match keys to test and which system writes in which direction. Say who approves a mapping. It runs in ChatGPT, Claude, Copilot or Gemini from files you supply. It needs no connection to your CRM, and it never asks for a login.
+Keep your approved definitions in the form the workflow template reads, with an owner for every field, and add the source system to each line as decisions are made. Name your consent fields, and name the columns that must appear as counts only. Decide which match keys to test and which system writes in which direction. Say who approves a mapping. It runs in ChatGPT, Claude, Copilot or Gemini from files you supply. It needs no connection to your CRM, and it never asks for a login.
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026; the record is published with it. The run showed that the example's map left out some counts and questions the instructions call for; the example was corrected afterwards and the instructions were clarified. A later review added missing fallbacks to the instructions, settled five points the run found open and corrected small details of the example; the edited version has not been run again. It has not yet been tested in a client environment, and not yet as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026; the record is published with it. The run showed that the example's map left out some counts and questions the instructions call for; the example was corrected afterwards and the instructions were clarified. A later review added missing fallbacks to the instructions, settled five points the run found open and corrected small details of the example; the edited version has not been run again. It has not yet been tested in a client environment, and not yet as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on a past mapping change your team already understands, with cases written in advance: a contact with no email, two records that share one, a stored cross-reference that points to a different record, a consent field that disagrees. The systems owner checks every count against the exports before anyone relies on the map. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on a past mapping change your team already understands, with cases written in advance: a contact with no email, two records that share one, a stored cross-reference that points to a different record, a consent field that disagrees. The systems owner checks every count against the exports before anyone relies on the map. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -60,11 +60,11 @@ Testing in your environment means running it on a past mapping change your team 
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -74,12 +74,12 @@ Testing in your environment means running it on a past mapping change your team 
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
-- [Dataset profile](https://fullypowered.ai/capabilities/dataset-profile/)
-- [Metric definition reconciliation](https://fullypowered.ai/capabilities/metric-definition-reconciliation/)
-- [Dashboard brief](https://fullypowered.ai/capabilities/dashboard-brief/)
+- [Dataset profile](https://fullypowered.ai/workflow templates/dataset-profile/)
+- [Metric definition reconciliation](https://fullypowered.ai/workflow templates/metric-definition-reconciliation/)
+- [Dashboard brief](https://fullypowered.ai/workflow templates/dashboard-brief/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

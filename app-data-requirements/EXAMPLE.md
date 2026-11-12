@@ -1,6 +1,6 @@
 # App data requirements: an invented example
 
-*Illustrative example with invented data.* The company, the people, the app and every line below are invented. The company is an invented office-services business, called Firm K here, that wants a small internal app for lending shared equipment. Its business systems analyst has four files and wants the data specification before anything is configured. First come the inputs the analyst supplied, in full, then the specification the capability returned.
+*Illustrative example with invented data.* The company, the people, the app and every line below are invented. The company is an invented office-services business, called Firm K here, that wants a small internal app for lending shared equipment. Its business systems analyst has four files and wants the data specification before anything is configured. First come the inputs the analyst supplied, in full, then the specification the workflow template returned.
 
 ## The inputs
 

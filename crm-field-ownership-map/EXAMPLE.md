@@ -1,6 +1,6 @@
 # CRM field ownership map: an invented example
 
-*Illustrative example with invented data.* The company, the systems, the people and every row below are invented. The company is called Company K here. Its systems owner is about to turn on a two-way sync between the contacts in the CRM and the customers in the billing system. First come the inputs the systems owner supplied, in full, then the map the capability returned.
+*Illustrative example with invented data.* The company, the systems, the people and every row below are invented. The company is called Company K here. Its systems owner is about to turn on a two-way sync between the contacts in the CRM and the customers in the billing system. First come the inputs the systems owner supplied, in full, then the map the workflow template returned.
 
 ## The inputs
 

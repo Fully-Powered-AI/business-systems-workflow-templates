@@ -1,6 +1,6 @@
 # Record sharing access matrix: an invented example
 
-*Illustrative example with invented data.* The company, the CRM, the roles, the rule names and the owners below are all invented. Wyndhollow Trade Supply is an invented distributor. Its CRM owner has an approved access policy and runs the matrix on Tuesday 10 November 2026, before the CRM administrator configures anything. First come the inputs the CRM owner supplied, in full, then the matrix the capability returned.
+*Illustrative example with invented data.* The company, the CRM, the roles, the rule names and the owners below are all invented. Wyndhollow Trade Supply is an invented distributor. Its CRM owner has an approved access policy and runs the matrix on Tuesday 10 November 2026, before the CRM administrator configures anything. First come the inputs the CRM owner supplied, in full, then the matrix the workflow template returned.
 
 ## The inputs
 

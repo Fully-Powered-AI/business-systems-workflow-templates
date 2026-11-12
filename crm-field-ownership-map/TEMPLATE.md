@@ -1,6 +1,6 @@
 # CRM field ownership map
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -12,7 +12,7 @@ Use it when a sync between a CRM and one other system is about to be switched on
 
 Do not use it:
 
-- to understand a single export before relying on it. That is the dataset profile capability;
+- to understand a single export before relying on it. That is the dataset profile workflow template;
 - to explain why two reports give different numbers. That is metric definition reconciliation;
 - to plan a dashboard. That is the dashboard brief;
 - to compare a wealth-management CRM with a custodian's records household by household. That is household record differences;

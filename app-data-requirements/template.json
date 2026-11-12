@@ -1,10 +1,10 @@
 {
   "id": "app-data-requirements",
   "name": "App data requirements",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "When the requirements for an internal app leave fields or actions unclear, the business systems analyst gets one data specification: entities, fields, who reads and writes each, and every unresolved name as a question. Nothing is built or changed.",
-  "directory": "https://fullypowered.ai/capabilities/app-data-requirements/",
+  "directory": "https://fullypowered.ai/workflow templates/app-data-requirements/",
   "primary_function": "functions/business-systems-and-integrations",
   "functions": [
     "functions/business-systems-and-integrations",

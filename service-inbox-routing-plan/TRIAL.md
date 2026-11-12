@@ -133,7 +133,7 @@ Differences from the published example, after reading it:
 
 Facts in either output that are not in the inputs:
 
-- In the example: "left as it is" for care@clientn.example (see above); "Customer care manager ran the capability once the three addresses had been approved" and "opening a returns inbox" in its introduction (the settings give the service as Returns inbox, but not who ran it).
+- In the example: "left as it is" for care@clientn.example (see above); "Customer care manager ran the workflow template once the three addresses had been approved" and "opening a returns inbox" in its introduction (the settings give the service as Returns inbox, but not who ran it).
 - In this run: none found. Every name, date and path traces to the five inputs.
 
 Not shown by this run: any behaviour of the template with a missing file, a mismatched header, a repeated address, an unapproved row, a path that leaves the company, or a blank "Automated mail handling" line. Acceptance tests 2 to 8 were not run here.

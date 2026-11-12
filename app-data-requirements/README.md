@@ -2,7 +2,7 @@
 
 When the requirements for an internal app leave fields or actions unclear, the business systems analyst gets one data specification: entities, fields, who reads and writes each, and every unresolved name as a question. Nothing is built or changed.
 
-*Capability template · Business systems and integrations · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/app-data-requirements/)*
+*Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/app-data-requirements/)*
 
 ## The outcome
 
@@ -40,7 +40,7 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 - [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/), when a shared spreadsheet has become an app and nobody has written down what it holds.
 - [Established businesses](https://fullypowered.ai/situations/established-businesses/), when a long-running process moves into a new internal tool.
 
-It settles the data an app needs. To write the testable behaviours of a story, use [acceptance criteria sheet](https://fullypowered.ai/capabilities/acceptance-criteria-sheet/). To settle what a report shows, use [dashboard brief](https://fullypowered.ai/capabilities/dashboard-brief/). To understand one unfamiliar export, use [dataset profile](https://fullypowered.ai/capabilities/dataset-profile/).
+It settles the data an app needs. To write the testable behaviours of a story, use [acceptance criteria sheet](https://fullypowered.ai/workflows/acceptance-criteria-sheet/). To settle what a report shows, use [dashboard brief](https://fullypowered.ai/workflows/dashboard-brief/). To understand one unfamiliar export, use [dataset profile](https://fullypowered.ai/workflows/dataset-profile/).
 
 ## What has to change for your company
 
@@ -48,9 +48,9 @@ Check that your object definitions use the default column headers, or rename the
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026; the record is published with it. The first run found that the example stated things the notes do not (who sets a due date, which fields a history reads, two fields counted as needed that no line asks for), that it left out two headings the format requires, and that the procedure could not produce the counts the template expected. The template and the example were then changed, and the edited version was run once more on the example by the assistant that made the edits, not independently. That run covered unclear verbs, names with no match, a word that fits an object and one of its fields, a rule that needs a field nobody mentioned and a sample date that is not a date; it did not reach a mismatched header, a sample value that looks real, a missing rules file or a request to build the app. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026; the record is published with it. The first run found that the example stated things the notes do not (who sets a due date, which fields a history reads, two fields counted as needed that no line asks for), that it left out two headings the format requires, and that the procedure could not produce the counts the template expected. The template and the example were then changed, and the edited version was run once more on the example by the assistant that made the edits, not independently. That run covered unclear verbs, names with no match, a word that fits an object and one of its fields, a rule that needs a field nobody mentioned and a sample date that is not a date; it did not reach a mismatched header, a sample value that looks real, a missing rules file or a request to build the app. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on the notes for a small app your analyst already knows, with gaps planted in copies and written down in advance: a verb with no clear meaning, a name that matches no object, a rule that needs a field nobody mentioned, a sample value of the wrong type. The analyst checks every line of the specification against the notes before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on the notes for a small app your analyst already knows, with gaps planted in copies and written down in advance: a verb with no clear meaning, a name that matches no object, a rule that needs a field nobody mentioned, a sample value of the wrong type. The analyst checks every line of the specification against the notes before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -61,11 +61,11 @@ Testing in your environment means running it on the notes for a small app your a
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -75,12 +75,12 @@ Testing in your environment means running it on the notes for a small app your a
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
-- [Acceptance criteria sheet](https://fullypowered.ai/capabilities/acceptance-criteria-sheet/)
-- [Dashboard brief](https://fullypowered.ai/capabilities/dashboard-brief/)
-- [Dataset profile](https://fullypowered.ai/capabilities/dataset-profile/)
+- [Acceptance criteria sheet](https://fullypowered.ai/workflow templates/acceptance-criteria-sheet/)
+- [Dashboard brief](https://fullypowered.ai/workflow templates/dashboard-brief/)
+- [Dataset profile](https://fullypowered.ai/workflow templates/dataset-profile/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
