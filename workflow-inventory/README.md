@@ -2,7 +2,7 @@
 
 When the ownership and status of your automated workflows come up for review, the platform owner gets one inventory built from the exports supplied: environments, enabled states, last run, queued runs and owner gaps. Quiet workflows become questions, not removal lists.
 
-*Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/workflow-inventory/)*
+*Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/workflow-inventory/)*
 
 ## The outcome
 
@@ -78,9 +78,9 @@ Testing in your environment means running it on an export your platform owner al
 
 ## Related workflow templates
 
-- [Software subscription and vendor spend review](https://fullypowered.ai/workflow templates/software-subscription-and-vendor-spend-review/)
-- [Process map and bottleneck review](https://fullypowered.ai/workflow templates/process-map-and-bottleneck-review/)
-- [Learning system access review](https://fullypowered.ai/workflow templates/learning-system-access-review/)
+- [Software subscription and vendor spend review](https://fullypowered.ai/workflows/software-subscription-and-vendor-spend-review/)
+- [Process map and bottleneck review](https://fullypowered.ai/workflows/process-map-and-bottleneck-review/)
+- [Learning system access review](https://fullypowered.ai/workflows/learning-system-access-review/)
 
 ## Make it yours
 

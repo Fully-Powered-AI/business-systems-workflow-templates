@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "When a business event needs to notify people, the integration owner gets one channel plan from the event definitions: trigger, urgency, who is told by which channel, what needs confirmation, fallbacks and reply handling. Consent and message rules stay as questions. Nothing is sent.",
-  "directory": "https://fullypowered.ai/workflow templates/notification-channel-plan/",
+  "directory": "https://fullypowered.ai/workflows/notification-channel-plan/",
   "primary_function": "functions/business-systems-and-integrations",
   "functions": [
     "functions/business-systems-and-integrations"

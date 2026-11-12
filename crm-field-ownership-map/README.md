@@ -2,7 +2,7 @@
 
 Before a CRM sync or field mapping changes, the systems owner gets a field map from the supplied exports and sample records: each field's source, match keys and conflict rule, with unclear keys, consent fields and duplicates left as questions for each field's owner.
 
-*Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/crm-field-ownership-map/)*
+*Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/crm-field-ownership-map/)*
 
 ## The outcome
 
@@ -76,9 +76,9 @@ Testing in your environment means running it on a past mapping change your team 
 
 ## Related workflow templates
 
-- [Dataset profile](https://fullypowered.ai/workflow templates/dataset-profile/)
-- [Metric definition reconciliation](https://fullypowered.ai/workflow templates/metric-definition-reconciliation/)
-- [Dashboard brief](https://fullypowered.ai/workflow templates/dashboard-brief/)
+- [Dataset profile](https://fullypowered.ai/workflows/dataset-profile/)
+- [Metric definition reconciliation](https://fullypowered.ai/workflows/metric-definition-reconciliation/)
+- [Dashboard brief](https://fullypowered.ai/workflows/dashboard-brief/)
 
 ## Make it yours
 

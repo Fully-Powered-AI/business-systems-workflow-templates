@@ -2,7 +2,7 @@
 
 When a new service inbox is being set up, the service owner gets a routing plan: each approved address, the queue it should reach and who owns it, checks to run before it goes live, and the wrong-address risks, loop risks and unconfirmed queue owners still open. Nothing is configured.
 
-*Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/service-inbox-routing-plan/)*
+*Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/service-inbox-routing-plan/)*
 
 ## The outcome
 
@@ -87,9 +87,9 @@ Testing in your environment means running it on an inbox your administrator has 
 
 ## Related workflow templates
 
-- [Inbox triage](https://fullypowered.ai/workflow templates/inbox-triage/)
-- [Support service level definition](https://fullypowered.ai/workflow templates/support-service-level-definition/)
-- [Support ticket triage](https://fullypowered.ai/workflow templates/support-ticket-triage/)
+- [Inbox triage](https://fullypowered.ai/workflows/inbox-triage/)
+- [Support service level definition](https://fullypowered.ai/workflows/support-service-level-definition/)
+- [Support ticket triage](https://fullypowered.ai/workflows/support-ticket-triage/)
 
 ## Make it yours
 

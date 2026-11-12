@@ -2,7 +2,7 @@
 
 When the requirements for an internal app leave fields or actions unclear, the business systems analyst gets one data specification: entities, fields, who reads and writes each, and every unresolved name as a question. Nothing is built or changed.
 
-*Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/app-data-requirements/)*
+*Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/app-data-requirements/)*
 
 ## The outcome
 
@@ -77,9 +77,9 @@ Testing in your environment means running it on the notes for a small app your a
 
 ## Related workflow templates
 
-- [Acceptance criteria sheet](https://fullypowered.ai/workflow templates/acceptance-criteria-sheet/)
-- [Dashboard brief](https://fullypowered.ai/workflow templates/dashboard-brief/)
-- [Dataset profile](https://fullypowered.ai/workflow templates/dataset-profile/)
+- [Acceptance criteria sheet](https://fullypowered.ai/workflows/acceptance-criteria-sheet/)
+- [Dashboard brief](https://fullypowered.ai/workflows/dashboard-brief/)
+- [Dataset profile](https://fullypowered.ai/workflows/dataset-profile/)
 
 ## Make it yours
 

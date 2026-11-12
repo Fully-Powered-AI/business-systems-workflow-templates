@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "When a new service inbox is being set up, the service owner gets a routing plan: each approved address, the queue it should reach and who owns it, checks to run before it goes live, and the wrong-address risks, loop risks and unconfirmed queue owners still open. Nothing is configured.",
-  "directory": "https://fullypowered.ai/workflow templates/service-inbox-routing-plan/",
+  "directory": "https://fullypowered.ai/workflows/service-inbox-routing-plan/",
   "primary_function": "functions/business-systems-and-integrations",
   "functions": [
     "functions/business-systems-and-integrations",

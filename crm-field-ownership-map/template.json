@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Before a CRM sync or field mapping changes, the systems owner gets a field map from the supplied exports and sample records: each field's source, match keys and conflict rule, with unclear keys, consent fields and duplicates left as questions for each field's owner.",
-  "directory": "https://fullypowered.ai/workflow templates/crm-field-ownership-map/",
+  "directory": "https://fullypowered.ai/workflows/crm-field-ownership-map/",
   "primary_function": "functions/business-systems-and-integrations",
   "functions": [
     "functions/business-systems-and-integrations"

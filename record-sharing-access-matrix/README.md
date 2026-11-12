@@ -2,7 +2,7 @@
 
 When an approved access policy has to reach the CRM, the system owner lays the current sharing setup beside the proposed one, by record type and by role, internal and external. Every change is a question for its owner; inherited and platform-fixed settings are marked unknown.
 
-*Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/record-sharing-access-matrix/)*
+*Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/record-sharing-access-matrix/)*
 
 ## The outcome
 
@@ -78,9 +78,9 @@ Testing in your environment means running it on a sharing change your administra
 
 ## Related workflow templates
 
-- [Learning system access review](https://fullypowered.ai/workflow templates/learning-system-access-review/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/workflow templates/pilot-acceptance-test-preparation/)
-- [Temporary change register](https://fullypowered.ai/workflow templates/temporary-change-register/)
+- [Learning system access review](https://fullypowered.ai/workflows/learning-system-access-review/)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/)
+- [Temporary change register](https://fullypowered.ai/workflows/temporary-change-register/)
 
 ## Make it yours
 

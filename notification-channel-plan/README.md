@@ -2,7 +2,7 @@
 
 When a business event needs to notify people, the integration owner gets one channel plan from the event definitions: trigger, urgency, who is told by which channel, what needs confirmation, fallbacks and reply handling. Consent and message rules stay as questions. Nothing is sent.
 
-*Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/notification-channel-plan/)*
+*Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/notification-channel-plan/)*
 
 ## The outcome
 
@@ -74,9 +74,9 @@ Testing in your environment means running it on an event your integration owner 
 
 ## Related workflow templates
 
-- [Internal change announcement](https://fullypowered.ai/workflow templates/internal-change-announcement/)
-- [Email sequence drafting](https://fullypowered.ai/workflow templates/email-sequence-drafting/)
-- [Appointment confirmation and no-show follow-up](https://fullypowered.ai/workflow templates/appointment-confirmation-and-no-show-follow-up/)
+- [Internal change announcement](https://fullypowered.ai/workflows/internal-change-announcement/)
+- [Email sequence drafting](https://fullypowered.ai/workflows/email-sequence-drafting/)
+- [Appointment confirmation and no-show follow-up](https://fullypowered.ai/workflows/appointment-confirmation-and-no-show-follow-up/)
 
 ## Make it yours
 

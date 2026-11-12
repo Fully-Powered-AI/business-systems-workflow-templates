@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "When the ownership and status of your automated workflows come up for review, the platform owner gets one inventory built from the exports supplied: environments, enabled states, last run, queued runs and owner gaps. Quiet workflows become questions, not removal lists.",
-  "directory": "https://fullypowered.ai/workflow templates/workflow-inventory/",
+  "directory": "https://fullypowered.ai/workflows/workflow-inventory/",
   "primary_function": "functions/business-systems-and-integrations",
   "functions": [
     "functions/business-systems-and-integrations"

@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "When an approved access policy has to reach the CRM, the system owner lays the current sharing setup beside the proposed one, by record type and by role, internal and external. Every change is a question for its owner; inherited and platform-fixed settings are marked unknown.",
-  "directory": "https://fullypowered.ai/workflow templates/record-sharing-access-matrix/",
+  "directory": "https://fullypowered.ai/workflows/record-sharing-access-matrix/",
   "primary_function": "functions/business-systems-and-integrations",
   "functions": [
     "functions/business-systems-and-integrations",
