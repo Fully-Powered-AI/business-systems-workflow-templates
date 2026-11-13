@@ -1,0 +1,49 @@
+{
+  "id": "systems-landscape-map",
+  "name": "Systems landscape and data flow map",
+  "kind": "workflow-template",
+  "version": "0.1.0",
+  "summary": "Before a major system decision, or at the annual review, the operations or systems lead gets one map of the company's systems from the lists and interviews supplied: what each is the record for, who owns it, which data moves between them, and every gap and duplicate record of truth as a question.",
+  "directory": "https://fullypowered.ai/workflows/systems-landscape-map/",
+  "primary_function": "functions/business-systems-and-integrations",
+  "functions": [
+    "functions/business-systems-and-integrations",
+    "functions/it-and-systems"
+  ],
+  "industries": [
+    "industries/professional-services",
+    "industries/manufacturing",
+    "industries/ecommerce-and-retail",
+    "industries/logistics-and-trade"
+  ],
+  "situations": [
+    "situations/acquisitions-and-integration",
+    "situations/growth-and-scaling",
+    "situations/established-businesses"
+  ],
+  "related": [
+    "crm-field-ownership-map",
+    "software-subscription-and-vendor-spend-review",
+    "workflow-inventory"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-11",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-11",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own published map of this work, from which the systems table, the rules that name a record of truth only where an owner or a note states it, the flow list and plain-text diagram, the marking of gaps and duplicate records of truth, and the questions addressed to the people who can answer them were written for this template."
+    }
+  ]
+}

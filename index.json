@@ -44,6 +44,14 @@
       "directory": "https://fullypowered.ai/workflows/service-inbox-routing-plan/"
     },
     {
+      "id": "systems-landscape-map",
+      "name": "Systems landscape and data flow map",
+      "version": "0.1.0",
+      "summary": "Before a major system decision, or at the annual review, the operations or systems lead gets one map of the company's systems from the lists and interviews supplied: what each is the record for, who owns it, which data moves between them, and every gap and duplicate record of truth as a question.",
+      "path": "systems-landscape-map/",
+      "directory": "https://fullypowered.ai/workflows/systems-landscape-map/"
+    },
+    {
       "id": "workflow-inventory",
       "name": "Workflow inventory",
       "version": "0.1.0",

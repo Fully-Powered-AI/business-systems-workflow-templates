@@ -2,7 +2,7 @@
 
 Know what every system holds, who can see it and where it goes next. These workflow templates are written for the person who owns the systems, not the person who codes them. They work from exports you supply, connect to nothing, change nothing and hold no credentials.
 
-This repository holds 6 workflow templates for operations and systems owners. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
+This repository holds 7 workflow templates for operations and systems owners. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
 
 ## The workflow templates
 
@@ -11,6 +11,7 @@ This repository holds 6 workflow templates for operations and systems owners. Ea
 - **[Notification channel plan](notification-channel-plan/)**: When a business event needs to notify people, the integration owner gets one channel plan from the event definitions: trigger, urgency, who is told by which channel, what needs confirmation, fallbacks and reply handling. Consent and message rules stay as questions. Nothing is sent.
 - **[Record sharing access matrix](record-sharing-access-matrix/)**: When an approved access policy has to reach the CRM, the system owner lays the current sharing setup beside the proposed one, by record type and by role, internal and external. Every change is a question for its owner; inherited and platform-fixed settings are marked unknown.
 - **[Service inbox routing plan](service-inbox-routing-plan/)**: When a new service inbox is being set up, the service owner gets a routing plan: each approved address, the queue it should reach and who owns it, checks to run before it goes live, and the wrong-address risks, loop risks and unconfirmed queue owners still open. Nothing is configured.
+- **[Systems landscape and data flow map](systems-landscape-map/)**: Before a major system decision, or at the annual review, the operations or systems lead gets one map of the company's systems from the lists and interviews supplied: what each is the record for, who owns it, which data moves between them, and every gap and duplicate record of truth as a question.
 - **[Workflow inventory](workflow-inventory/)**: When the ownership and status of your automated workflows come up for review, the platform owner gets one inventory built from the exports supplied: environments, enabled states, last run, queued runs and owner gaps. Quiet workflows become questions, not removal lists.
 
 ## How to use one
