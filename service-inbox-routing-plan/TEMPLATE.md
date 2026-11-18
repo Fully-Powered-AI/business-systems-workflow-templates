@@ -264,4 +264,4 @@ approve the plan, decline; a person decides.
 
 ## Version notes
 
-- 0.1.0, 10 November 2026. Written by Fully Powered AI. Tried once on its invented example in Claude on 10 November 2026, on the wording before the review changes of the same day; the run was not blind and the record is published beside it (`public/trial.md`). Not yet tested in a client environment.
+- 0.1.0, 10 November 2026. Written by FullyPowered AI. Tried once on its invented example in Claude on 10 November 2026, on the wording before the review changes of the same day; the run was not blind and the record is published beside it (`public/trial.md`). Not yet tested in a client environment.

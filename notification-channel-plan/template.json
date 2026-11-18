@@ -24,7 +24,7 @@
     "appointment-confirmation-and-no-show-follow-up"
   ],
   "evidence": {
-    "written_by": "Fully Powered AI",
+    "written_by": "FullyPowered AI",
     "source_and_rights_reviewed": true,
     "editorially_reviewed": "2026-11-10",
     "package_format_valid": true,
@@ -40,7 +40,7 @@
   "sources": [
     {
       "kind": "own",
-      "title": "Fully Powered AI's own published map of business systems and integrations work."
+      "title": "FullyPowered AI's own published map of business systems and integrations work."
     }
   ]
 }

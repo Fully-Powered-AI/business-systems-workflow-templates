@@ -271,4 +271,4 @@ communication requirements, and apply only the constraints supplied.
 
 ## Version notes
 
-- 0.1.0, 10 November 2026. Written by Fully Powered AI. Tried once on its invented example in Claude on 10 November 2026, with the record published. Edits made to the instructions and the example after that run have not been run again. Not yet tested in a client environment or as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+- 0.1.0, 10 November 2026. Written by FullyPowered AI. Tried once on its invented example in Claude on 10 November 2026, with the record published. Edits made to the instructions and the example after that run have not been run again. Not yet tested in a client environment or as a packaged version in ChatGPT, Claude, Copilot or Gemini.
