@@ -4,6 +4,8 @@ Before a CRM sync or field mapping changes, the systems owner gets a field map f
 
 *Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/crm-field-ownership-map/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/crm-field-ownership-map/?from=gh-crm-field-ownership-map)
+
 ## The outcome
 
 Two systems that both hold the same customer stop overwriting each other by accident. Before the change goes live, the systems owner has one page that lists every field the two systems share, says which system the definitions name as the source for each, shows how the records would be matched, and states the rule that would settle a disagreement. Each statement says what it rests on: a definition someone supplied, the fact that only one system holds the field, or nothing yet.

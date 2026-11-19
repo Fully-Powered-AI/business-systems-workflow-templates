@@ -4,6 +4,8 @@ When the ownership and status of your automated workflows come up for review, th
 
 *Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/workflow-inventory/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/workflow-inventory/?from=gh-business-systems-workflow-inventory)
+
 ## The outcome
 
 The platform owner sees every automated workflow in one list, grouped by environment, in the same shape every time. Each line says whether it is switched on, who owns it, when it last ran, how that run ended and whether runs are waiting. The gaps are on the page: workflows with no owner, owners who have left, groups named where a person is needed, and workflows that have never been seen running.

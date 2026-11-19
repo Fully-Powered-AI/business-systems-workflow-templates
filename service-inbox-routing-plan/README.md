@@ -4,6 +4,8 @@ When a new service inbox is being set up, the service owner gets a routing plan:
 
 *Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/service-inbox-routing-plan/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/service-inbox-routing-plan/?from=gh-service-inbox-routing-plan)
+
 ## The outcome
 
 Before a new service inbox goes live, the service owner can see on one page where every approved address leads. Each address has a queue it should reach, a named owner for that queue and a short list of checks someone can run once the setup is done. Where the company's current settings already send an address somewhere else, the plan shows the path step by step and says what would have to change.

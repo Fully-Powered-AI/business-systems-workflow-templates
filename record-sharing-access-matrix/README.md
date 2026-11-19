@@ -4,6 +4,8 @@ When an approved access policy has to reach the CRM, the system owner lays the c
 
 *Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/record-sharing-access-matrix/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/record-sharing-access-matrix/?from=gh-record-sharing-access-matrix)
+
 ## The outcome
 
 The people who must agree to a sharing change see its effect before anyone touches a setting. For every record type and every role, internal or external, the matrix shows what the export says people have today, what the approved policy says they should have, and whether the change widens access, narrows it or leaves it alone.

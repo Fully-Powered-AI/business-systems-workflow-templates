@@ -4,6 +4,8 @@ Before a major system decision, or at the annual review, the operations or syste
 
 *Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/systems-landscape-map/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/systems-landscape-map/?from=gh-systems-landscape-map)
+
 ## The outcome
 
 The company sees all of its systems on one page, the way an architect would draw them, without having to hire one. A table shows every system with what it is used for, the kinds of record it is the record of truth for, what else it holds, its business owner and the person who runs it. A list of flows shows what data moves between systems, how it moves (automatically, by file, or retyped by hand), how often and who keeps it running. A plain-text diagram draws the same flows so anyone in the meeting can follow them.

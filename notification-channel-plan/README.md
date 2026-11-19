@@ -4,6 +4,8 @@ When a business event needs to notify people, the integration owner gets one cha
 
 *Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/notification-channel-plan/)*
 
+**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/notification-channel-plan/?from=gh-notification-channel-plan)
+
 ## The outcome
 
 Before anyone builds the notification, the integration owner holds one plan that says, for each business event, what sets it off, how urgent it is, who is told, by which channel and in what order, and what happens when nobody answers. The gaps that usually surface after launch are written down first: a text that nobody reads replies to, an email that reports no delivery, an alert held back by a quiet-hours rule, an escalation with nobody at the end of it.
