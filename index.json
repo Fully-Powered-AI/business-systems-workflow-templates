@@ -20,6 +20,14 @@
       "directory": "https://fullypowered.ai/workflows/crm-field-ownership-map/"
     },
     {
+      "id": "database-table-quality-check",
+      "name": "Database table quality check",
+      "version": "0.1.0",
+      "summary": "Once a month, or before a migration, a report or an automation is built on a table, its owner gets one numbered findings sheet: duplicate keys, blank required fields, values off the allowed list, bad dates and numbers, broken links, each with its rows. Nothing is changed.",
+      "path": "database-table-quality-check/",
+      "directory": "https://fullypowered.ai/workflows/database-table-quality-check/"
+    },
+    {
       "id": "notification-channel-plan",
       "name": "Notification channel plan",
       "version": "0.1.0",

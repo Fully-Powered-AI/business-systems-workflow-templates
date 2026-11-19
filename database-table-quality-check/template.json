@@ -1,0 +1,47 @@
+{
+  "id": "database-table-quality-check",
+  "name": "Database table quality check",
+  "kind": "workflow-template",
+  "version": "0.1.0",
+  "summary": "Once a month, or before a migration, a report or an automation is built on a table, its owner gets one numbered findings sheet: duplicate keys, blank required fields, values off the allowed list, bad dates and numbers, broken links, each with its rows. Nothing is changed.",
+  "directory": "https://fullypowered.ai/workflows/database-table-quality-check/",
+  "primary_function": "functions/business-systems-and-integrations",
+  "functions": [
+    "functions/business-systems-and-integrations",
+    "functions/operations-and-process-improvement"
+  ],
+  "industries": [
+    "industries/professional-services",
+    "industries/construction",
+    "industries/logistics-and-trade"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/acquisitions-and-integration"
+  ],
+  "related": [
+    "app-data-requirements",
+    "dataset-profile",
+    "metric-definition-reconciliation"
+  ],
+  "evidence": {
+    "written_by": "FullyPowered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-19",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-19",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Checking one exported table against rules its owner writes once (required fields, the key, allowed values, date and number formats, links to other tables): every row counted against the tool's own count, duplicate keys and look-alike records under different keys, blanks, values off the list, malformed dates and numbers and links to missing records each reported with row references and a count, missing rules written as questions, a stop on any header that does not match, and the rule that no record is changed, merged or deleted, written for this template."
+    }
+  ]
+}
