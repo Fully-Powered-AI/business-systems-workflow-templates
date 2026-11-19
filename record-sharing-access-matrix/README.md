@@ -8,7 +8,7 @@ Lay the current CRM sharing setup beside the approved policy by record type and 
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/record-sharing-access-matrix/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-record-sharing-access-matrix&from=gh-record-sharing-access-matrix)*
@@ -38,7 +38,7 @@ The export holds settings, not people. No customer records, individual user name
 
 One dated matrix in a fixed order, with a tie-out line that accounts for every policy row and every export row. Then five lists: access that widens; access that narrows; access that stays the same; unknowns, each with its reason; and access in the export that the policy does not mention. External roles come first in each list. A count by record type shows which parts of the CRM the change reaches. The decisions close the matrix, grouped by system owner, CRM administrator and security.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -58,7 +58,7 @@ Name your record types and roles exactly as your CRM does, because the assistant
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026, and the record of that run is published with it. The run was not blind: the model had seen the example's published output before it worked the matrix again from the inputs. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried once on its example in Claude on 10 November 2026, and the record of that run is published with it. The run was not blind: the model had seen the example's published output before it worked the matrix again from the inputs. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your environment means running it on a sharing change your administrator has already worked through, with cases written in advance: a role missing from the export, two export rows that disagree, an inherited setting whose parent also changes, an exception with no owner. The administrator checks every row against the CRM before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-record-sharing-access-matrix&from=gh-record-sharing-access-matrix) sets those cases up.
 
@@ -66,13 +66,13 @@ Testing in your environment means running it on a sharing change your administra
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

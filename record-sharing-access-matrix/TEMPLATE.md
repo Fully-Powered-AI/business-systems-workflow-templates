@@ -222,4 +222,4 @@ appears in the files; tell the person to remove it.
 
 ## Version notes
 
-- 0.1.0, 10 November 2026. Written by FullyPowered AI. Tried on its invented example in Claude on 10 November 2026; that run was not blind, and its record is published with the profile. Not tested in a client environment.
+- 0.1.0, 10 November 2026. Written by FullyPowered AI. Tried on its example in Claude on 10 November 2026; that run was not blind, and its record is published with the profile. Not tested in a client environment.

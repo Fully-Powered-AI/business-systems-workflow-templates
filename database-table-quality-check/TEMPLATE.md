@@ -145,7 +145,7 @@ Line numbers count from line 1 of [export file] as exported on [date]; the key v
 
 ## Acceptance tests
 
-They use the invented files in the example. Test 1 was run on 19 November 2026 in Claude and its record is published with the template; the other ten have not been run.
+They use the sample files in the example. Test 1 was run on 19 November 2026 in Claude and its record is published with the template; the other ten have not been run.
 
 1. **Counts.** Run the example. Expected: 15 lines, 14 data rows, 8 fields on every row, the tool's 14 matched; 9 findings (1 duplicate key, 1 likely duplicate, 2 blanks, 2 outside the list, 2 wrong form, 1 broken link); 12 row references; 11 of 14 rows with a finding.
 2. **Header mismatch.** Rename the export's `purchase_cost` column to `cost`. Expected: stops after section 1, naming `cost` as a column with no rule and `purchase_cost` as a rule with no column.
@@ -258,4 +258,4 @@ connection, and accept none; work only from the files supplied.
 
 ## Version notes
 
-- 0.1.0, 19 November 2026. Written by FullyPowered AI as original work, from how a table owner checks a shared table before relying on it. Editorially reviewed on 19 November 2026. Tried once on its invented example on 19 November 2026 in Claude; the record is published with it, and lists the small edits made afterward that have not been run again. Acceptance test 1 was run in that trial; the other ten have not been. Not tested in a client environment.
+- 0.1.0, 19 November 2026. Written by FullyPowered AI as original work, from how a table owner checks a shared table before relying on it. Editorially reviewed on 19 November 2026. Tried once on its example on 19 November 2026 in Claude; the record is published with it, and lists the small edits made afterward that have not been run again. Acceptance test 1 was run in that trial; the other ten have not been. Not tested in a client environment.

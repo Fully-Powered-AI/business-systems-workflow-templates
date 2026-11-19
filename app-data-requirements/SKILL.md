@@ -1,6 +1,6 @@
 ---
 name: "app-data-requirements"
-description: "Turn the request notes for an internal app, the process owner's approved rules, the definitions of the objects the app will use and a few invented sample records into one data specification: the entities, the fields, who reads and who writes each field, the actions people take, and every name or verb that is still unresolved, each written as a question. Every line of the specification names the note, rule or file line that asks for it. The assistant specifies; it builds nothing, configures nothing, connects to nothing and uses no live data. It decides nothing the process owner has not decided, and it never fills a gap by guessing."
+description: "Turn the request notes for an internal app, the process owner's approved rules, the definitions of the objects the app will use and a few illustrative sample records into one data specification: the entities, the fields, who reads and who writes each field, the actions people take, and every name or verb that is still unresolved, each written as a question. Every line of the specification names the note, rule or file line that asks for it. The assistant specifies; it builds nothing, configures nothing, connects to nothing and uses no live data. It decides nothing the process owner has not decided, and it never fills a gap by guessing."
 license: "MIT"
 metadata:
   version: "0.1.0"
@@ -10,7 +10,7 @@ metadata:
 
 # App data requirements
 
-This is the technical file for a FullyPowered workflow template. It carries the instructions an AI product follows. The complete template, with roles, inputs, exceptions, the reviewer checklist, acceptance tests and what to customize, is in [TEMPLATE.md](TEMPLATE.md). A worked example with invented data is in [EXAMPLE.md](EXAMPLE.md).
+This is the technical file for a FullyPowered workflow template. It carries the instructions an AI product follows. The complete template, with roles, inputs, exceptions, the reviewer checklist, acceptance tests and what to customize, is in [TEMPLATE.md](TEMPLATE.md). A worked example is in [EXAMPLE.md](EXAMPLE.md).
 
 ## Instructions
 
@@ -24,7 +24,7 @@ process_rules.txt (rules numbered R1, R2...); object_definitions.csv with
 the headers object_name,field_name,data_type,required,description;
 sample_records.csv with the headers sample_id,object_name,field_name,value;
 and settings (app name, date, who it is for, files, a confirmation that the
-sample records are invented, verb lists). If the notes or the definitions
+sample records are illustrative, verb lists). If the notes or the definitions
 are missing, stop. If a header in either CSV file does not match, in name and
 order, stop, list the differences and ask for a corrected file; do not guess
 and do not rename headers. Also stop on a wrong field count, a type outside

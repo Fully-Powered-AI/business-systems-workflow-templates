@@ -8,7 +8,7 @@ Turn unclear internal app requirements into one data specification of entities, 
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/app-data-requirements/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-app-data-requirements&from=gh-app-data-requirements)*
@@ -30,14 +30,14 @@ The business systems analyst starts it when the notes for an internal app have b
 - **The request notes,** as plain text, one statement to a line.
 - **The approved process rules,** one numbered rule to a line.
 - **The object definitions** of the systems the app will use: each object, its fields, their types and whether they are required, as an export with the default column headers.
-- **Sample records,** invented ones, in a file with the default column headers. They are never copied from live data.
+- **Sample records,** sample ones, in a file with the default column headers. They are never copied from live data.
 - **A few settings:** the app's name, the date, who the specification is for and which verbs your company uses to mean reading, writing or sending.
 
 ## What comes out
 
 One specification in a fixed order: the files and the header check, the names matched, the entities, the fields with who reads and writes each, the actions, the approved rules checked against the fields, the sample records checked against the definitions, numbered questions for the process owner, the decisions that remain and what was not checked. A section with nothing to report says what was checked and found nothing.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -57,7 +57,7 @@ Check that your object definitions use the default column headers, or rename the
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026; the record is published with it. The first run found that the example stated things the notes do not (who sets a due date, which fields a history reads, two fields counted as needed that no line asks for), that it left out two headings the format requires, and that the procedure could not produce the counts the template expected. The template and the example were then changed, and the edited version was run once more on the example by the assistant that made the edits, not independently. That run covered unclear verbs, names with no match, a word that fits an object and one of its fields, a rule that needs a field nobody mentioned and a sample date that is not a date; it did not reach a mismatched header, a sample value that looks real, a missing rules file or a request to build the app. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried on its example in Claude on 10 November 2026; the record is published with it. The first run found that the example stated things the notes do not (who sets a due date, which fields a history reads, two fields counted as needed that no line asks for), that it left out two headings the format requires, and that the procedure could not produce the counts the template expected. The template and the example were then changed, and the edited version was run once more on the example by the assistant that made the edits, not independently. That run covered unclear verbs, names with no match, a word that fits an object and one of its fields, a rule that needs a field nobody mentioned and a sample date that is not a date; it did not reach a mismatched header, a sample value that looks real, a missing rules file or a request to build the app. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your environment means running it on the notes for a small app your analyst already knows, with gaps planted in copies and written down in advance: a verb with no clear meaning, a name that matches no object, a rule that needs a field nobody mentioned, a sample value of the wrong type. The analyst checks every line of the specification against the notes before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-app-data-requirements&from=gh-app-data-requirements) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-app-data-requirements&from=gh-app-data-requirements) describes the record we keep.
 
@@ -65,13 +65,13 @@ Testing in your environment means running it on the notes for a small app your a
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

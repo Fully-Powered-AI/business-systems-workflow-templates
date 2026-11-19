@@ -155,7 +155,7 @@ Every path and value traces to the plan settings for [service] and the approved 
 
 Proposed tests. None has been run.
 
-1. **Normal run.** The invented example in the public folder. Expected: three address blocks, one not set up, two set up differently, none matching; five open items (three wrong-address, one loop, one unconfirmed owner); nine prepared checks; four supplied, three agreeing with the plan and one outside the approved list.
+1. **Normal run.** The example in the public folder. Expected: three address blocks, one not set up, two set up differently, none matching; five open items (three wrong-address, one loop, one unconfirmed owner); nine prepared checks; four supplied, three agreeing with the plan and one outside the approved list.
 2. **Header mismatch.** The queues file names a column `lead` in place of `owner`. Expected: stops and asks which column is which.
 3. **Repeated address.** The approved list holds the same address twice, once in capitals. Expected: stops and reports which.
 4. **Not approved.** One approved-list row has a blank `approved_date`. Expected: listed under `Not approved, left out`; no block, no checks.
@@ -264,4 +264,4 @@ approve the plan, decline; a person decides.
 
 ## Version notes
 
-- 0.1.0, 10 November 2026. Written by FullyPowered AI. Tried once on its invented example in Claude on 10 November 2026, on the wording before the review changes of the same day; the run was not blind and the record is published beside it (`public/trial.md`). Not yet tested in a client environment.
+- 0.1.0, 10 November 2026. Written by FullyPowered AI. Tried once on its example in Claude on 10 November 2026, on the wording before the review changes of the same day; the run was not blind and the record is published beside it (`public/trial.md`). Not yet tested in a client environment.

@@ -1,6 +1,6 @@
-# Systems landscape and data flow map: an invented example
+# Systems landscape and data flow map: an example
 
-*Illustrative example with invented data.* The company, its systems, the people and every row and note below are invented. The company is called Company R here: a maker of outdoor furniture with about 80 people, selling to retailers and online. Its owners will decide in the spring whether to replace the accounting system, and the operations lead wants the whole picture first. First come the inputs the operations lead supplied, in full, then the map the workflow template returned.
+*Illustrative example with sample data.* The company, its systems, the people and every row and note below are illustrative. The company is called Company R here: a maker of outdoor furniture with about 80 people, selling to retailers and online. Its owners will decide in the spring whether to replace the accounting system, and the operations lead wants the whole picture first. First come the inputs the operations lead supplied, in full, then the map the workflow template returned.
 
 ## The inputs
 

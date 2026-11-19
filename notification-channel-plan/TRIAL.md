@@ -1,10 +1,10 @@
-# Notification channel plan: a trial on its invented example
+# Notification channel plan: a trial on its example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs were the invented example in [public/example.md](example.md) (a 30-person bike and kayak hire company, five events, four channels, three constraints). No client data was used. The run was done by an assistant that had not written the template. It read the complete template and the example's inputs only, followed the instruction block and the output format, produced the plan, and only then read the example's published output and the reviewer checklist to compare.
+The inputs were the example in [public/example.md](example.md) (a 30-person bike and kayak hire company, five events, four channels, three constraints). No client data was used. The run was done by an assistant that had not written the template. It read the complete template and the example's inputs only, followed the instruction block and the output format, produced the plan, and only then read the example's published output and the reviewer checklist to compare.
 
 ## What came out
 
@@ -124,4 +124,4 @@ Draft for Priya's approval of the design and Marcus's approval of message rules 
 9. **Placeholder text.** Input 6 of the template contains the bracketed placeholders "[your urgency scale]", "[your confirmation windows]" and "[your channel suitability by urgency]", and refers to "steps 3, 6 and 5" in that order. It reads like unfinished text.
 10. **A missing preferences row versus missing preferences.** The template says to plan no event when recipient preferences are not supplied, and the instruction block says to continue when anything else is missing. They agree, but the block is less explicit.
 
-This trial was run once, on the invented example only. It is not a test in a client environment or in another product.
+This trial was run once, on the example only. It is not a test in a client environment or in another product.

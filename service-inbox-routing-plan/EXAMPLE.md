@@ -1,13 +1,13 @@
-# Service inbox routing plan: an invented example
+# Service inbox routing plan: an example
 
-*Illustrative example with invented data.* The business, its addresses (on the reserved example domain), the roles, the help desk and every date below are invented. Client N is an invented online kitchenware retailer opening a returns inbox. In this example the service owner is the customer care manager. First come the inputs supplied, in full, then the plan the workflow template returned.
+*Illustrative example with sample data.* The business, its addresses (on the reserved example domain), the roles, the help desk and every date below are illustrative. Client N is an illustrative online kitchenware retailer opening a returns inbox. In this example the service owner is the customer care manager. First come the inputs supplied, in full, then the plan the workflow template returned.
 
 ## The inputs
 
 ### 1. Plan settings
 
 ```
-Business: Client N (an invented online kitchenware retailer)
+Business: Client N (an illustrative online kitchenware retailer)
 Service: Returns inbox
 Service owner: Customer care manager
 Administrator: Systems administrator

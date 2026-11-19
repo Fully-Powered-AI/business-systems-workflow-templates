@@ -1,10 +1,10 @@
-# Systems landscape and data flow map: trial on the invented example
+# Systems landscape and data flow map: trial on the example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-11
 
-The inputs are the invented example for this workflow template (Company R, a made-up maker of outdoor furniture). No client data was used. The inputs used are the four in [the example](example.md): the settings, the systems list, the connections list and the four interview notes. The run followed the instruction block and the output format in the template exactly. The example's own output was not read until the run was finished.
+The inputs are the example for this workflow template (Company R, a made-up maker of outdoor furniture). No client data was used. The inputs used are the four in [the example](example.md): the settings, the systems list, the connections list and the four interview notes. The run followed the instruction block and the output format in the template exactly. The example's own output was not read until the run was finished.
 
 ## What came out
 

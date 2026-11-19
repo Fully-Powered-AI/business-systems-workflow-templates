@@ -8,7 +8,7 @@ Before a CRM sync changes, get a field map with each field's source, match keys 
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/crm-field-ownership-map/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-crm-field-ownership-map&from=gh-crm-field-ownership-map)*
@@ -37,7 +37,7 @@ The systems owner or CRM administrator starts it when a sync between the CRM and
 
 One field map in a fixed order: the files and their header check, the field map with a source, role and conflict rule for each pair, fields held by only one system, match keys, duplicates and ambiguous matches, consent fields, questions for the field owners grouped by owner, and decisions for the integration owner. A section with nothing to report says what was checked and found nothing.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -56,7 +56,7 @@ Keep your approved definitions in the form the workflow template reads, with an 
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026; the record is published with it. The run showed that the example's map left out some counts and questions the instructions call for; the example was corrected afterwards and the instructions were clarified. A later review added missing fallbacks to the instructions, settled five points the run found open and corrected small details of the example; the edited version has not been run again. It has not yet been tested in a client environment, and not yet as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried on its example in Claude on 10 November 2026; the record is published with it. The run showed that the example's map left out some counts and questions the instructions call for; the example was corrected afterwards and the instructions were clarified. A later review added missing fallbacks to the instructions, settled five points the run found open and corrected small details of the example; the edited version has not been run again. It has not yet been tested in a client environment, and not yet as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your environment means running it on a past mapping change your team already understands, with cases written in advance: a contact with no email, two records that share one, a stored cross-reference that points to a different record, a consent field that disagrees. The systems owner checks every count against the exports before anyone relies on the map. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-crm-field-ownership-map&from=gh-crm-field-ownership-map) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-crm-field-ownership-map&from=gh-crm-field-ownership-map) describes the record we keep.
 
@@ -64,13 +64,13 @@ Testing in your environment means running it on a past mapping change your team 
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

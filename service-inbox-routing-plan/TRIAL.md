@@ -1,10 +1,10 @@
-# Service inbox routing plan: tried once on its invented example
+# Service inbox routing plan: tried once on its example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs were the invented example in `public/example.md` (Client N, an invented online kitchenware retailer, with addresses on the reserved example domain). No client data was used. The five inputs are the plan settings, addresses.csv, current_settings.csv, queues.csv and scenarios.csv, exactly as printed in that example. The assistant followed the fenced instruction block and the output format in `member/template.md`, with the full procedure in the template as its reference.
+The inputs were the example in `public/example.md` (Client N, an illustrative online kitchenware retailer, with addresses on the reserved example domain). No client data was used. The five inputs are the plan settings, addresses.csv, current_settings.csv, queues.csv and scenarios.csv, exactly as printed in that example. The assistant followed the fenced instruction block and the output format in `member/template.md`, with the full procedure in the template as its reference.
 
 One thing to know about how this run was done: the run was set up so that the example's output would be read only after the plan was written. In practice the whole example file, output included, was printed on screen in the same step as the inputs, so the output was seen before the plan below was produced. The plan below was still built rule by rule from the template, and the differences listed afterwards are real ones, but this run is a weaker witness than a run that never saw the answer. A later trial should be given the inputs alone.
 

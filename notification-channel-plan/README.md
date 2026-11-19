@@ -8,7 +8,7 @@ Get one channel plan per business event: who is told, by which channel, with fal
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/notification-channel-plan/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-notification-channel-plan&from=gh-notification-channel-plan)*
@@ -35,7 +35,7 @@ The integration owner or business systems analyst starts it when a business even
 
 One plan in a fixed order. A header with the counts, then a block for each event: trigger, urgency, who is told by which channel, confirmation, timing, fallback, escalation, reply handling, repeat rule and the evidence the integration will see. Then the events that could not be planned and why, a note on each channel, the constraints applied, and numbered questions grouped by the person who must answer them.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -54,7 +54,7 @@ Set your urgency scale and how long each level waits for a confirmation. Decide 
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026, and the record is published with it. Small edits made to the instructions and the example after that run have not been run again. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried once on its example in Claude on 10 November 2026, and the record is published with it. Small edits made to the instructions and the example after that run have not been run again. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your environment means running it on an event your integration owner already knows well, with cases written in advance: a channel that reports no delivery, an event with no urgency, a reply route nobody reads, a constraint that holds back an urgent message. The integration owner checks every line against the event definitions before anyone builds from it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-notification-channel-plan&from=gh-notification-channel-plan) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-notification-channel-plan&from=gh-notification-channel-plan) describes the record we keep.
 
@@ -62,13 +62,13 @@ Testing in your environment means running it on an event your integration owner 
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

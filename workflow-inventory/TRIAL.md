@@ -1,15 +1,15 @@
-# Workflow inventory: a trial on the invented example
+# Workflow inventory: a trial on the example
 
 - **Product:** Claude, run in Claude Code
 
 Model: Claude Sonnet 5.5 (model ID claude-sonnet-5-5). Date: 2026-11-10.
 
-The inputs are the invented example in [example.md](example.md): the settings, the workflow export (15 rows), the environment list (3), the people list (5) and one note. They are invented, and no client data was used. The run used the instruction block and the output format in the member template, on those inputs only. The model had not written the template and did not read the example's output until after its own output was complete. The days-since-last-run figures were worked out by hand and then checked with a short date calculation.
+The inputs are the example in [example.md](example.md): the settings, the workflow export (15 rows), the environment list (3), the people list (5) and one note. They are illustrative, and no client data was used. The run used the instruction block and the output format in the member template, on those inputs only. The model had not written the template and did not read the example's output until after its own output was complete. The days-since-last-run figures were worked out by hand and then checked with a short date calculation.
 
 ## What came out
 
 ```
-WORKFLOW INVENTORY: an invented workflow platform, reviewed 2026-11-10
+WORKFLOW INVENTORY: an illustrative workflow platform, reviewed 2026-11-10
 
 For: Platform owner. Quiet means a last run more than 90 days before 2026-11-10, that is, before 2026-08-12.
 Prepared: From the workflow export (15 rows), the environment list (3), the people list (5), the settings and 1 note.
@@ -102,7 +102,7 @@ Draft for the platform owner. Nothing has been paused, retired, changed or sent,
 
 ### Shortcomings of this trial
 
-- It is one run, by one model, on one invented example with no ambiguous or messy data beyond the blanks above. Most acceptance tests did not arise: no header mismatch, no repeated ID, no environment missing from the list, no request to pause or remove, and no people list missing were tried.
+- It is one run, by one model, on one example with no ambiguous or messy data beyond the blanks above. Most acceptance tests did not arise: no header mismatch, no repeated ID, no environment missing from the list, no request to pause or remove, and no people list missing were tried.
 - It does not show how the template behaves in ChatGPT, Copilot or Gemini, or on a real export. It is not a test in a client environment.
 
 ### Clarifications made after this run

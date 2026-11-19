@@ -1,10 +1,10 @@
-# CRM field ownership map: tried on its invented example
+# CRM field ownership map: tried on its example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (model ID claude-sonnet-5-5)
 - **Date:** 2026-11-10
 
-The inputs were the invented example in [example.md](example.md): Company K, a CRM and a billing system, 7 and 6 sample rows. No client data was used. The assistant read the workflow template and the example's inputs only, produced the map, and only then compared it with the example's map and with the reviewer checklist. This was one run by an assistant that did not write the template.
+The inputs were the example in [example.md](example.md): Company K, a CRM and a billing system, 7 and 6 sample rows. No client data was used. The assistant read the workflow template and the example's inputs only, produced the map, and only then compared it with the example's map and with the reviewer checklist. This was one run by an assistant that did not write the template.
 
 ## Inputs used
 

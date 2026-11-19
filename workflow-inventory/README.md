@@ -8,7 +8,7 @@ One inventory of your automated workflows from the exports you supply: environme
 **Quick start**
 
 1. Read EXAMPLE.md to see what a good result looks like.
-2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the sample ones from EXAMPLE.md.
 3. Read what comes back. It marks what it checked and what is left for you.
 
 *Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/workflow-inventory/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-workflow-inventory&from=gh-business-systems-workflow-inventory)*
@@ -39,7 +39,7 @@ One inventory in a fixed order: counts and a line for each environment, every wo
 
 Every flag is a statement of what the export shows. Nothing in the inventory pauses, retires or changes a workflow, and nothing is sent.
 
-See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
+See the worked example in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
@@ -58,7 +58,7 @@ Decide how many days without a run is worth a question; the default is 90. Name 
 
 ## What has been checked
 
-FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried once on its invented example, in Claude on 10 November 2026, and the record of that run is published with it, listing where the instructions were ambiguous. Small clarifications made afterward, to settle those places, have not been run again; the record lists them. One run on an invented example is not a test. It has not yet been tested in a client environment, and it has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried once on its example, in Claude on 10 November 2026, and the record of that run is published with it, listing where the instructions were ambiguous. Small clarifications made afterward, to settle those places, have not been run again; the record lists them. One run on an example is not a test. It has not yet been tested in a client environment, and it has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your environment means running it on an export your platform owner already knows well, with cases written in advance: a workflow with no owner, an owner who has left, a workflow that is quiet for a good reason, a run that failed, a column header that does not match. The platform owner checks every line against the platform itself before anyone relies on the inventory. [Process map and bottleneck review](https://fullypowered.ai/workflows/process-map-and-bottleneck-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-workflow-inventory&from=gh-business-systems-workflow-inventory) can help sort out what a given workflow is for once its owner is found.
 
@@ -66,13 +66,13 @@ Testing in your environment means running it on an export your platform owner al
 - Sources and rights reviewed.
 - Editorially reviewed on 10 November 2026.
 - Package format checked by script on every release.
-- Tried once on its invented example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
+- Tried once on its example in Claude on 10 November 2026. The record is in [TRIAL.md](TRIAL.md).
 - Not yet tested in a client environment.
 
 ## What is in this folder
 
 - [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
-- [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
+- [EXAMPLE.md](EXAMPLE.md): a worked example.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
 - [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.

@@ -1,6 +1,6 @@
-# Notification channel plan: an invented example
+# Notification channel plan: an example
 
-*Illustrative example with invented data.* An invented 30-person bike and kayak hire company, Company A, plans the notifications for five events. The people are invented too: Priya, the integration owner, and Marcus, the service owner. Company A's compliance lead answers consent questions.
+*Illustrative example with sample data.* An illustrative 30-person bike and kayak hire company, Company A, plans the notifications for five events. The people are illustrative too: Priya, the integration owner, and Marcus, the service owner. Company A's compliance lead answers consent questions.
 
 ## What the person supplies
 

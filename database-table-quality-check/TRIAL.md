@@ -1,4 +1,4 @@
-# Database table quality check: a trial on the invented example
+# Database table quality check: a trial on the example
 
 - **Product:** Claude, run in Claude Code
 
@@ -6,7 +6,7 @@ Model: Claude Sonnet 5.5 (model ID claude-sonnet-5-5).
 
 Date: 2026-11-19.
 
-The inputs were the invented example's own, and no client data was used. The inputs are the four in `public/example.md`: the settings, `assets.csv`, `table_rules.csv` and `sites.csv`. The model read the template and those inputs first, and only afterwards read the example's findings sheet to compare. It did not install, connect to or run anything; it worked from the files as text.
+The inputs were the example's own, and no client data was used. The inputs are the four in `public/example.md`: the settings, `assets.csv`, `table_rules.csv` and `sites.csv`. The model read the template and those inputs first, and only afterwards read the example's findings sheet to compare. It did not install, connect to or run anything; it worked from the files as text.
 
 ## What came out
 
@@ -86,7 +86,7 @@ Where the instructions were ambiguous, and the model had to choose:
 - Section 7's heading has no "rows read" count, unlike the others, although the procedure says every section states how many it read. The model put the count in each finding.
 - The reviewer checklist asks whether the heading totals add up; the model did this by hand.
 
-The model was not told to stop for anything, and it was not asked to fix, merge, connect or choose a right row, so the decline rules were not exercised. Of the eleven acceptance tests, only the first was run here. The template's own version note said at the run that it had not been tried (since corrected, see below); this trial is one run on the invented example, by one model, and it is not a test in a client environment.
+The model was not told to stop for anything, and it was not asked to fix, merge, connect or choose a right row, so the decline rules were not exercised. Of the eleven acceptance tests, only the first was run here. The template's own version note said at the run that it had not been tried (since corrected, see below); this trial is one run on the example, by one model, and it is not a test in a client environment.
 
 ## Changed after the run
 

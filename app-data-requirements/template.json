@@ -41,7 +41,7 @@
   "sources": [
     {
       "kind": "own",
-      "title": "Turning the notes, approved rules, existing object definitions and invented sample records behind an internal app request into a data specification: names matched exactly or by meaning and otherwise left open, verbs sorted into read, write, message and unclear, each field given the people who read it and write it with the line that says so, rules checked for the data they need, sample values checked against the definitions, every gap written as a numbered question, and the rule that nothing is built, configured or run on live data, written for this template."
+      "title": "Turning the notes, approved rules, existing object definitions and illustrative sample records behind an internal app request into a data specification: names matched exactly or by meaning and otherwise left open, verbs sorted into read, write, message and unclear, each field given the people who read it and write it with the line that says so, rules checked for the data they need, sample values checked against the definitions, every gap written as a numbered question, and the rule that nothing is built, configured or run on live data, written for this template."
     }
   ]
 }

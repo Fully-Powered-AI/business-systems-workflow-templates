@@ -1,10 +1,10 @@
-# App data requirements: a second run on the invented example
+# App data requirements: a second run on the example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Sonnet 5.5 (`claude-sonnet-5-5`)
 - **Date:** 2026-11-10
 
-The inputs were the invented example's own: the settings, `request_notes.txt`, `process_rules.txt`, `object_definitions.csv` and `sample_records.csv` in [the example](example.md). No client data was used. This is the second run on those inputs. The first run, made earlier the same day on the first version of the template, found the faults listed below; the template and the example were then edited, and this run is of the edited template.
+The inputs were the example's own: the settings, `request_notes.txt`, `process_rules.txt`, `object_definitions.csv` and `sample_records.csv` in [the example](example.md). No client data was used. This is the second run on those inputs. The first run, made earlier the same day on the first version of the template, found the faults listed below; the template and the example were then edited, and this run is of the edited template.
 
 Two limits. This run was not blind: the assistant that made the edits ran it, and the example's specification was written in the same session just before it. And the run was a check of the edited instruction block against the example, made by deriving the specification from the inputs one step at a time, not an independent trial. It was run once.
 

@@ -4,7 +4,7 @@ Workflow template, version 0.1.0.
 
 ## Purpose
 
-Turn the request notes for an internal app, the process owner's approved rules, the definitions of the objects the app will use and a few invented sample records into one data specification: the entities, the fields, who reads and who writes each field, the actions people take, and every name or verb that is still unresolved, each written as a question. Every line of the specification names the note, rule or file line that asks for it. The assistant specifies; it builds nothing, configures nothing, connects to nothing and uses no live data. It decides nothing the process owner has not decided, and it never fills a gap by guessing.
+Turn the request notes for an internal app, the process owner's approved rules, the definitions of the objects the app will use and a few illustrative sample records into one data specification: the entities, the fields, who reads and who writes each field, the actions people take, and every name or verb that is still unresolved, each written as a question. Every line of the specification names the note, rule or file line that asks for it. The assistant specifies; it builds nothing, configures nothing, connects to nothing and uses no live data. It decides nothing the process owner has not decided, and it never fills a gap by guessing.
 
 ## When to use it and when not to
 
@@ -26,7 +26,7 @@ Four files, as text, pasted tables or attachments, and the settings.
 1. **`request_notes.txt`,** plain text with no header: one statement to a line, and line 1 is the first line. A line is cited as N plus its number (N3). A line that holds more than one statement is split in procedure step 2 and its parts are cited as N2a, N2b. If missing, stop.
 2. **`process_rules.txt`,** the approved rules, one to a line, each beginning with its number as `R1:`, `R2:` and so on. If a line has no such number, stop and ask for one. If the file is missing, say "no approved rules supplied" in section 6 and continue from the notes alone.
 3. **`object_definitions.csv`,** one row per field of the existing objects (tables, lists or record types) the app will use, with the default headers `object_name`, `field_name`, `data_type`, `required`, `description`. `data_type` is one of text, number, date, yes-no, choice. `required` is yes or no. The header is line 1. If the app has no existing objects, the analyst supplies the file with the header line only, and every name is then unmatched. If missing, stop.
-4. **`sample_records.csv`,** invented records, with the default headers `sample_id`, `object_name`, `field_name`, `value`: one row per value, and all rows with the same `sample_id` make one sample record of one object. A blank value is a blank field. If missing, say "sample records not supplied" in section 7 and make no type checks.
+4. **`sample_records.csv`,** sample records, with the default headers `sample_id`, `object_name`, `field_name`, `value`: one row per value, and all rows with the same `sample_id` make one sample record of one object. A blank value is a blank field. If missing, say "sample records not supplied" in section 7 and make no type checks.
 5. **Settings,** typed by the analyst, one per line:
    - `App name:`
    - `Today:` the date.
@@ -164,7 +164,7 @@ Every line number counts from line 1 of its file as supplied on [Today]; a sampl
 
 ## Acceptance tests
 
-They use the invented files in the example. Tests 2 to 6, 13 and 14 describe cases the example itself contains, and the trial of 10 November 2026 produced them; the others have not been run.
+They use the sample files in the example. Tests 2 to 6, 13 and 14 describe cases the example itself contains, and the trial of 10 November 2026 produced them; the others have not been run.
 
 1. **Header mismatch.** Rename `data_type` to `type` in the definitions. Expected: stops after the header check and lists the difference; no later section.
 2. **Counts.** Run the example. Expected: 7 note lines (8 statements once N2 is split), 4 rules (5 statements once R2 is split), 13 field rows in 3 objects, 13 sample rows in 3 records; 10 of 13 fields needed and 3 defined but not mentioned; 9 actions (2 read, 4 write, 3 unclear or message); 4 rules (1 covered, 3 partly covered).
@@ -172,7 +172,7 @@ They use the invented files in the example. Tests 2 to 6, 13 and 14 describe cas
 4. **Unmatched name.** Keep "condition" in R4 with no matching field. Expected: listed under No match, with "no existing name shares a word", and R4 partly covered.
 5. **By meaning, not exact.** Note 3 says "due back date". Expected: listed under matched by meaning with both quotes, not under matched exactly.
 6. **Sample type.** Keep the due date "next Monday". Expected: 1 of 3 date values fits, 1 does not (line 13), 1 is blank.
-7. **Real-looking value.** Replace a sample name with a personal email address on a company domain. Expected: stops; asks for an invented replacement; does not repeat the value.
+7. **Real-looking value.** Replace a sample name with a personal email address on a company domain. Expected: stops; asks for an illustrative replacement; does not repeat the value.
 8. **Duplicate definition.** Add a second `Loan,date_due` row. Expected: stops and gives both lines.
 9. **Rule and note disagree.** Change R2 to a 10-day standard loan while note 3 still says a week. Expected: both listed, marked "needs a person's confirmation", neither chosen.
 10. **No rules file.** Remove `process_rules.txt`. Expected: section 6 says no approved rules were supplied, and the rest continues from the notes.
@@ -194,7 +194,7 @@ process_rules.txt (rules numbered R1, R2...); object_definitions.csv with
 the headers object_name,field_name,data_type,required,description;
 sample_records.csv with the headers sample_id,object_name,field_name,value;
 and settings (app name, date, who it is for, files, a confirmation that the
-sample records are invented, verb lists). If the notes or the definitions
+sample records are illustrative, verb lists). If the notes or the definitions
 are missing, stop. If a header in either CSV file does not match, in name and
 order, stop, list the differences and ask for a corrected file; do not guess
 and do not rename headers. Also stop on a wrong field count, a type outside
@@ -283,4 +283,4 @@ code or connection; work only from the files supplied.
 
 ## Version notes
 
-- 0.1.0, 10 November 2026. Written by FullyPowered AI. It was tried on its invented example in Claude on 10 November 2026; the record is published with it. That first run showed that the example stated things the notes do not (who sets the due date, which fields the loan history reads, and two fields counted as needed that no line asks for), that the example left out two headings the format requires, and that the procedure could not produce the counts in the second acceptance test. The template and the example were then changed: statements are split by one stated rule, the full verb lists are in the instructions, a word that fits an object and one of its fields is ambiguous, and the counts were corrected. The edited version was run once more on the example by the assistant that made the edits, not independently. It has not been tested in a client environment.
+- 0.1.0, 10 November 2026. Written by FullyPowered AI. It was tried on its example in Claude on 10 November 2026; the record is published with it. That first run showed that the example stated things the notes do not (who sets the due date, which fields the loan history reads, and two fields counted as needed that no line asks for), that the example left out two headings the format requires, and that the procedure could not produce the counts in the second acceptance test. The template and the example were then changed: statements are split by one stated rule, the full verb lists are in the instructions, a word that fits an object and one of its fields is ambiguous, and the counts were corrected. The edited version was run once more on the example by the assistant that made the edits, not independently. It has not been tested in a client environment.

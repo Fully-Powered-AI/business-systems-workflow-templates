@@ -1,6 +1,6 @@
-# Database table quality check: an invented example
+# Database table quality check: an example
 
-*Illustrative example with invented data.* The company, the people, the assets, the sites and every value below are invented. The company is an invented facilities-services business, called Company R here. Its operations manager owns the Assets table the team keeps its equipment records in, and wants the table checked before it is moved to a new database tool. First come the inputs the operations manager supplied, in full, then the findings sheet the workflow template returned.
+*Illustrative example with sample data.* The company, the people, the assets, the sites and every value below are illustrative. The company is an illustrative facilities-services business, called Company R here. Its operations manager owns the Assets table the team keeps its equipment records in, and wants the table checked before it is moved to a new database tool. First come the inputs the operations manager supplied, in full, then the findings sheet the workflow template returned.
 
 ## The inputs
 

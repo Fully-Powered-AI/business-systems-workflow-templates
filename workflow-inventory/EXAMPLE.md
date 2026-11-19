@@ -1,13 +1,13 @@
-# Workflow inventory: an invented example
+# Workflow inventory: an example
 
-*Illustrative example with invented data.* The company, the people, the platform, the workflows and the dates below are all invented. The company is an invented 80-person online retailer whose platform owner reviews its automated workflows once a quarter. Nothing here describes a real organization or a measured result.
+*Illustrative example with sample data.* The company, the people, the platform, the workflows and the dates below are all illustrative. The company is an illustrative 80-person online retailer whose platform owner reviews its automated workflows once a quarter. Nothing here describes a real organization or a measured result.
 
 ## The inputs
 
 ### 1. Settings
 
 ```
-Platform: an invented workflow platform
+Platform: an illustrative workflow platform
 Review date: 2026-11-10
 Quiet threshold: 90 days (quiet means the last run is more than 90 days before the review date)
 Platform owner: the person who receives the inventory
@@ -62,7 +62,7 @@ integrations team,group
 
 ## The output
 
-**WORKFLOW INVENTORY: an invented workflow platform, reviewed 2026-11-10**
+**WORKFLOW INVENTORY: an illustrative workflow platform, reviewed 2026-11-10**
 
 - **For:** Platform owner. Quiet means a last run more than 90 days before 2026-11-10, that is, before 2026-08-12.
 - **Prepared:** From the workflow export (15 rows), the environment list (3), the people list (5), the settings and 1 note.
