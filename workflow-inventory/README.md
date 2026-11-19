@@ -1,10 +1,17 @@
 # Workflow inventory
 
-When the ownership and status of your automated workflows come up for review, the platform owner gets one inventory built from the exports supplied: environments, enabled states, last run, queued runs and owner gaps. Quiet workflows become questions, not removal lists.
+One inventory of your automated workflows from the exports you supply: environments, last run, queued runs and owner gaps. The platform owner decides.
 
-*Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/workflow-inventory/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Workflow inventory on our website](https://fullypowered.ai/workflows/workflow-inventory/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-workflow-inventory&from=gh-business-systems-workflow-inventory) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/workflow-inventory/?from=gh-business-systems-workflow-inventory)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/workflow-inventory/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-workflow-inventory&from=gh-business-systems-workflow-inventory)*
 
 ## The outcome
 
@@ -36,14 +43,14 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Business systems and integrations](https://fullypowered.ai/functions/business-systems-and-integrations/), where the owner of the platform needs to know what is running before changing anything around it.
-- [Professional services](https://fullypowered.ai/industries/professional-services/), where client-facing automations pile up around matters, billing and onboarding.
-- [Software and technology](https://fullypowered.ai/industries/software-technology/), where internal automations multiply faster than anyone records them.
-- [E-commerce and retail](https://fullypowered.ai/industries/ecommerce-and-retail/), where order, stock and refund workflows run all day and a failed one costs real orders.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/), where automations outlive the people who built them.
-- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/), when a handful of automations becomes a hundred.
+- [Business systems and integrations](https://fullypowered.ai/functions/business-systems-and-integrations/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-workflow-inventory&from=gh-business-systems-workflow-inventory), where the owner of the platform needs to know what is running before changing anything around it.
+- [Professional services](https://fullypowered.ai/industries/professional-services/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-workflow-inventory&from=gh-business-systems-workflow-inventory), where client-facing automations pile up around matters, billing and onboarding.
+- [Software and technology](https://fullypowered.ai/industries/software-technology/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-workflow-inventory&from=gh-business-systems-workflow-inventory), where internal automations multiply faster than anyone records them.
+- [E-commerce and retail](https://fullypowered.ai/industries/ecommerce-and-retail/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-workflow-inventory&from=gh-business-systems-workflow-inventory), where order, stock and refund workflows run all day and a failed one costs real orders.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-workflow-inventory&from=gh-business-systems-workflow-inventory), where automations outlive the people who built them.
+- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-workflow-inventory&from=gh-business-systems-workflow-inventory), when a handful of automations becomes a hundred.
 
-It is a different piece of work from [software subscription and vendor spend review](https://fullypowered.ai/workflows/software-subscription-and-vendor-spend-review/), which looks at what tools cost, and from [process map and bottleneck review](https://fullypowered.ai/workflows/process-map-and-bottleneck-review/), which looks at how work moves between people. This one looks at the automations themselves.
+It is a different piece of work from [software subscription and vendor spend review](https://fullypowered.ai/workflows/software-subscription-and-vendor-spend-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-workflow-inventory&from=gh-business-systems-workflow-inventory), which looks at what tools cost, and from [process map and bottleneck review](https://fullypowered.ai/workflows/process-map-and-bottleneck-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-workflow-inventory&from=gh-business-systems-workflow-inventory), which looks at how work moves between people. This one looks at the automations themselves.
 
 ## What has to change for your company
 
@@ -53,7 +60,7 @@ Decide how many days without a run is worth a question; the default is 90. Name 
 
 FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried once on its invented example, in Claude on 10 November 2026, and the record of that run is published with it, listing where the instructions were ambiguous. Small clarifications made afterward, to settle those places, have not been run again; the record lists them. One run on an invented example is not a test. It has not yet been tested in a client environment, and it has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on an export your platform owner already knows well, with cases written in advance: a workflow with no owner, an owner who has left, a workflow that is quiet for a good reason, a run that failed, a column header that does not match. The platform owner checks every line against the platform itself before anyone relies on the inventory. [Process map and bottleneck review](https://fullypowered.ai/workflows/process-map-and-bottleneck-review/) can help sort out what a given workflow is for once its owner is found.
+Testing in your environment means running it on an export your platform owner already knows well, with cases written in advance: a workflow with no owner, an owner who has left, a workflow that is quiet for a good reason, a run that failed, a column header that does not match. The platform owner checks every line against the platform itself before anyone relies on the inventory. [Process map and bottleneck review](https://fullypowered.ai/workflows/process-map-and-bottleneck-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-workflow-inventory&from=gh-business-systems-workflow-inventory) can help sort out what a given workflow is for once its owner is found.
 
 - Written by FullyPowered AI.
 - Sources and rights reviewed.
@@ -80,10 +87,10 @@ Testing in your environment means running it on an export your platform owner al
 
 ## Related workflow templates
 
-- [Software subscription and vendor spend review](https://fullypowered.ai/workflows/software-subscription-and-vendor-spend-review/)
-- [Process map and bottleneck review](https://fullypowered.ai/workflows/process-map-and-bottleneck-review/)
-- [Learning system access review](https://fullypowered.ai/workflows/learning-system-access-review/)
+- [Software subscription and vendor spend review](https://fullypowered.ai/workflows/software-subscription-and-vendor-spend-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-workflow-inventory&from=gh-business-systems-workflow-inventory)
+- [Process map and bottleneck review](https://fullypowered.ai/workflows/process-map-and-bottleneck-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-workflow-inventory&from=gh-business-systems-workflow-inventory)
+- [Learning system access review](https://fullypowered.ai/workflows/learning-system-access-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-workflow-inventory&from=gh-business-systems-workflow-inventory)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-workflow-inventory&from=gh-business-systems-workflow-inventory).

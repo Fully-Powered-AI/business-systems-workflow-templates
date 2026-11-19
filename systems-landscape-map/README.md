@@ -1,10 +1,17 @@
 # Systems landscape and data flow map
 
-Before a major system decision, or at the annual review, the operations or systems lead gets one map of the company's systems from the lists and interviews supplied: what each is the record for, who owns it, which data moves between them, and every gap and duplicate record of truth as a question.
+One map of your systems from lists and interviews: what each is the record for, who owns it, which data moves where, with gaps marked as questions.
 
-*Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/systems-landscape-map/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Systems landscape and data flow map on our website](https://fullypowered.ai/workflows/systems-landscape-map/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-systems-landscape-map&from=gh-systems-landscape-map) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/systems-landscape-map/?from=gh-systems-landscape-map)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/systems-landscape-map/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-systems-landscape-map&from=gh-systems-landscape-map)*
 
 ## The outcome
 
@@ -33,17 +40,17 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Business systems and integrations](https://fullypowered.ai/functions/business-systems-and-integrations/), where someone has to know how the company's systems fit together before choosing what to keep, add or retire.
-- [IT and systems](https://fullypowered.ai/functions/it-and-systems/), where the person who runs the tools is asked which one holds the real customer list.
-- [Professional services](https://fullypowered.ai/industries/professional-services/), where client records sit in a CRM, a billing tool and a project tool at once.
-- [Manufacturing](https://fullypowered.ai/industries/manufacturing/), where products, stock and orders pass between sales, the warehouse and accounts, often by hand.
-- [E-commerce and retail](https://fullypowered.ai/industries/ecommerce-and-retail/), where an online shop, a warehouse system and the books each hold their own copy of orders and products.
-- [Logistics and trade](https://fullypowered.ai/industries/logistics-and-trade/), where shipments, stock and invoices move between several systems every day.
-- [Acquisitions and integration](https://fullypowered.ai/situations/acquisitions-and-integration/), when two companies' systems have to be laid side by side before anything is merged.
-- [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/), when tools added one at a time have become a landscape nobody has drawn.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/), where how data moves lives in a few long-serving people's heads and should live on a page.
+- [Business systems and integrations](https://fullypowered.ai/functions/business-systems-and-integrations/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-systems-landscape-map&from=gh-systems-landscape-map), where someone has to know how the company's systems fit together before choosing what to keep, add or retire.
+- [IT and systems](https://fullypowered.ai/functions/it-and-systems/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-systems-landscape-map&from=gh-systems-landscape-map), where the person who runs the tools is asked which one holds the real customer list.
+- [Professional services](https://fullypowered.ai/industries/professional-services/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-systems-landscape-map&from=gh-systems-landscape-map), where client records sit in a CRM, a billing tool and a project tool at once.
+- [Manufacturing](https://fullypowered.ai/industries/manufacturing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-systems-landscape-map&from=gh-systems-landscape-map), where products, stock and orders pass between sales, the warehouse and accounts, often by hand.
+- [E-commerce and retail](https://fullypowered.ai/industries/ecommerce-and-retail/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-systems-landscape-map&from=gh-systems-landscape-map), where an online shop, a warehouse system and the books each hold their own copy of orders and products.
+- [Logistics and trade](https://fullypowered.ai/industries/logistics-and-trade/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-systems-landscape-map&from=gh-systems-landscape-map), where shipments, stock and invoices move between several systems every day.
+- [Acquisitions and integration](https://fullypowered.ai/situations/acquisitions-and-integration/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-systems-landscape-map&from=gh-systems-landscape-map), when two companies' systems have to be laid side by side before anything is merged.
+- [Growth and scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-systems-landscape-map&from=gh-systems-landscape-map), when tools added one at a time have become a landscape nobody has drawn.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-systems-landscape-map&from=gh-systems-landscape-map), where how data moves lives in a few long-serving people's heads and should live on a page.
 
-For the fields two systems share before a sync is switched on, use the [CRM field ownership map](https://fullypowered.ai/workflows/crm-field-ownership-map/). For what each subscription costs and who owns it, use the [software subscription and vendor spend review](https://fullypowered.ai/workflows/software-subscription-and-vendor-spend-review/). For the automations running on one platform, use the [workflow inventory](https://fullypowered.ai/workflows/workflow-inventory/). This workflow template is for the whole landscape.
+For the fields two systems share before a sync is switched on, use the [CRM field ownership map](https://fullypowered.ai/workflows/crm-field-ownership-map/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-systems-landscape-map&from=gh-systems-landscape-map). For what each subscription costs and who owns it, use the [software subscription and vendor spend review](https://fullypowered.ai/workflows/software-subscription-and-vendor-spend-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-systems-landscape-map&from=gh-systems-landscape-map). For the automations running on one platform, use the [workflow inventory](https://fullypowered.ai/workflows/workflow-inventory/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-systems-landscape-map&from=gh-systems-landscape-map). This workflow template is for the whole landscape.
 
 ## What has to change for your company
 
@@ -53,7 +60,7 @@ Settle the kinds of record your company runs on: the standard list covers custom
 
 FullyPowered AI wrote this workflow template. It was editorially reviewed on 11 November 2026. It was tried once on its invented example, in Claude on 11 November 2026, and the record of that run is published with it, listing where the instructions were ambiguous. Clarifications made afterward, to settle those places and to put a privacy rule into the instruction text, have not been run again; the record lists them. One run on an invented example is not a test. It has not yet been tested in a client environment.
 
-Testing in your environment means running it on a part of your landscape your operations lead already knows well, plus hard cases written in advance, each with its expected result: two systems both named as the record for customers, a spreadsheet with no owner, a flow someone mentions that is on no list, a renamed column in the systems list, a password pasted into a note. The operations lead checks every row and flow against the lists and notes before anyone relies on the map. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on a part of your landscape your operations lead already knows well, plus hard cases written in advance, each with its expected result: two systems both named as the record for customers, a spreadsheet with no owner, a flow someone mentions that is on no list, a renamed column in the systems list, a password pasted into a note. The operations lead checks every row and flow against the lists and notes before anyone relies on the map. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-systems-landscape-map&from=gh-systems-landscape-map) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-systems-landscape-map&from=gh-systems-landscape-map) describes the record we keep.
 
 - Written by FullyPowered AI.
 - Sources and rights reviewed.
@@ -81,9 +88,9 @@ Testing in your environment means running it on a part of your landscape your op
 ## Related workflow templates
 
 - [CRM field ownership map](../crm-field-ownership-map/)
-- [Software subscription and vendor spend review](https://fullypowered.ai/workflows/software-subscription-and-vendor-spend-review/)
+- [Software subscription and vendor spend review](https://fullypowered.ai/workflows/software-subscription-and-vendor-spend-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-systems-landscape-map&from=gh-systems-landscape-map)
 - [Workflow inventory](../workflow-inventory/)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-systems-landscape-map&from=gh-systems-landscape-map).

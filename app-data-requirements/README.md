@@ -1,10 +1,17 @@
 # App data requirements
 
-When the requirements for an internal app leave fields or actions unclear, the business systems analyst gets one data specification: entities, fields, who reads and writes each, and every unresolved name as a question. Nothing is built or changed.
+Turn unclear internal app requirements into one data specification of entities, fields and questions for the process owner. Nothing is built.
 
-*Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/app-data-requirements/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See App data requirements on our website](https://fullypowered.ai/workflows/app-data-requirements/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-app-data-requirements&from=gh-app-data-requirements) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/app-data-requirements/?from=gh-app-data-requirements)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/app-data-requirements/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-app-data-requirements&from=gh-app-data-requirements)*
 
 ## The outcome
 
@@ -34,15 +41,15 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Business systems and integrations](https://fullypowered.ai/functions/business-systems-and-integrations/), where an internal app has to agree with the systems around it before anyone configures it.
-- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/), where the process owner's rules become data the app has to hold.
-- [Professional services](https://fullypowered.ai/industries/professional-services/), where internal tools for requests, approvals and tracking are often built from a few lines of notes.
-- [Software and technology](https://fullypowered.ai/industries/software-technology/), where the analyst turns a product or support request into the data a build team can read.
-- [E-commerce and retail](https://fullypowered.ai/industries/ecommerce-and-retail/), where small internal apps for stock, returns and requests grow beside the store.
-- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/), when a shared spreadsheet has become an app and nobody has written down what it holds.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/), when a long-running process moves into a new internal tool.
+- [Business systems and integrations](https://fullypowered.ai/functions/business-systems-and-integrations/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-app-data-requirements&from=gh-app-data-requirements), where an internal app has to agree with the systems around it before anyone configures it.
+- [Operations and process improvement](https://fullypowered.ai/functions/operations-and-process-improvement/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-app-data-requirements&from=gh-app-data-requirements), where the process owner's rules become data the app has to hold.
+- [Professional services](https://fullypowered.ai/industries/professional-services/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-app-data-requirements&from=gh-app-data-requirements), where internal tools for requests, approvals and tracking are often built from a few lines of notes.
+- [Software and technology](https://fullypowered.ai/industries/software-technology/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-app-data-requirements&from=gh-app-data-requirements), where the analyst turns a product or support request into the data a build team can read.
+- [E-commerce and retail](https://fullypowered.ai/industries/ecommerce-and-retail/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-app-data-requirements&from=gh-app-data-requirements), where small internal apps for stock, returns and requests grow beside the store.
+- [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-app-data-requirements&from=gh-app-data-requirements), when a shared spreadsheet has become an app and nobody has written down what it holds.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-app-data-requirements&from=gh-app-data-requirements), when a long-running process moves into a new internal tool.
 
-It settles the data an app needs. To write the testable behaviours of a story, use [acceptance criteria sheet](https://fullypowered.ai/workflows/acceptance-criteria-sheet/). To settle what a report shows, use [dashboard brief](https://fullypowered.ai/workflows/dashboard-brief/). To understand one unfamiliar export, use [dataset profile](https://fullypowered.ai/workflows/dataset-profile/).
+It settles the data an app needs. To write the testable behaviours of a story, use [acceptance criteria sheet](https://fullypowered.ai/workflows/acceptance-criteria-sheet/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-app-data-requirements&from=gh-app-data-requirements). To settle what a report shows, use [dashboard brief](https://fullypowered.ai/workflows/dashboard-brief/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-app-data-requirements&from=gh-app-data-requirements). To understand one unfamiliar export, use [dataset profile](https://fullypowered.ai/workflows/dataset-profile/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-app-data-requirements&from=gh-app-data-requirements).
 
 ## What has to change for your company
 
@@ -52,7 +59,7 @@ Check that your object definitions use the default column headers, or rename the
 
 FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026; the record is published with it. The first run found that the example stated things the notes do not (who sets a due date, which fields a history reads, two fields counted as needed that no line asks for), that it left out two headings the format requires, and that the procedure could not produce the counts the template expected. The template and the example were then changed, and the edited version was run once more on the example by the assistant that made the edits, not independently. That run covered unclear verbs, names with no match, a word that fits an object and one of its fields, a rule that needs a field nobody mentioned and a sample date that is not a date; it did not reach a mismatched header, a sample value that looks real, a missing rules file or a request to build the app. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on the notes for a small app your analyst already knows, with gaps planted in copies and written down in advance: a verb with no clear meaning, a name that matches no object, a rule that needs a field nobody mentioned, a sample value of the wrong type. The analyst checks every line of the specification against the notes before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on the notes for a small app your analyst already knows, with gaps planted in copies and written down in advance: a verb with no clear meaning, a name that matches no object, a rule that needs a field nobody mentioned, a sample value of the wrong type. The analyst checks every line of the specification against the notes before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-app-data-requirements&from=gh-app-data-requirements) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-app-data-requirements&from=gh-app-data-requirements) describes the record we keep.
 
 - Written by FullyPowered AI.
 - Sources and rights reviewed.
@@ -79,10 +86,10 @@ Testing in your environment means running it on the notes for a small app your a
 
 ## Related workflow templates
 
-- [Acceptance criteria sheet](https://fullypowered.ai/workflows/acceptance-criteria-sheet/)
-- [Dashboard brief](https://fullypowered.ai/workflows/dashboard-brief/)
-- [Dataset profile](https://fullypowered.ai/workflows/dataset-profile/)
+- [Acceptance criteria sheet](https://fullypowered.ai/workflows/acceptance-criteria-sheet/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-app-data-requirements&from=gh-app-data-requirements)
+- [Dashboard brief](https://fullypowered.ai/workflows/dashboard-brief/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-app-data-requirements&from=gh-app-data-requirements)
+- [Dataset profile](https://fullypowered.ai/workflows/dataset-profile/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-app-data-requirements&from=gh-app-data-requirements)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-app-data-requirements&from=gh-app-data-requirements).

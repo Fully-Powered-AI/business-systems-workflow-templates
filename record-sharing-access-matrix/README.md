@@ -1,10 +1,17 @@
 # Record sharing access matrix
 
-When an approved access policy has to reach the CRM, the system owner lays the current sharing setup beside the proposed one, by record type and by role, internal and external. Every change is a question for its owner; inherited and platform-fixed settings are marked unknown.
+Lay the current CRM sharing setup beside the approved policy by record type and role. Unknowns are marked, and owners decide.
 
-*Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/record-sharing-access-matrix/)*
+> [!TIP]
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Record sharing access matrix on our website](https://fullypowered.ai/workflows/record-sharing-access-matrix/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-record-sharing-access-matrix&from=gh-record-sharing-access-matrix) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
-**This is a template, made to be customized and deployed.** FullyPowered AI customizes AI workflows that run in ChatGPT, Claude, Copilot and Gemini. [Get this one fitted to your company](https://fullypowered.ai/workflows/record-sharing-access-matrix/?from=gh-record-sharing-access-matrix)
+**Quick start**
+
+1. Read EXAMPLE.md to see what a good result looks like.
+2. Copy all of TEMPLATE.md into your assistant, then give it your own inputs, or the invented ones from EXAMPLE.md.
+3. Read what comes back. It marks what it checked and what is left for you.
+
+*Workflow template · Business systems and integrations · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/record-sharing-access-matrix/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-record-sharing-access-matrix&from=gh-record-sharing-access-matrix)*
 
 ## The outcome
 
@@ -35,15 +42,15 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## Where it fits
 
-- [Business systems and integrations](https://fullypowered.ai/functions/business-systems-and-integrations/), where the CRM owner turns an approved policy into configuration.
-- [Information security](https://fullypowered.ai/functions/information-security/), which owns the policy and any exception to it.
-- [Software and technology](https://fullypowered.ai/industries/software-technology/), where partner and customer portals put external users into the CRM.
-- [Professional services](https://fullypowered.ai/industries/professional-services/), where who sees which client record is a daily question.
-- [Manufacturing](https://fullypowered.ai/industries/manufacturing/), where distributors and partners reach opportunity and quote records.
-- [Established businesses](https://fullypowered.ai/situations/established-businesses/), where sharing settings have grown over years and nobody holds the whole picture.
-- [Acquisitions and integration](https://fullypowered.ai/situations/acquisitions-and-integration/), when two sets of access rules have to become one.
+- [Business systems and integrations](https://fullypowered.ai/functions/business-systems-and-integrations/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-record-sharing-access-matrix&from=gh-record-sharing-access-matrix), where the CRM owner turns an approved policy into configuration.
+- [Information security](https://fullypowered.ai/functions/information-security/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-record-sharing-access-matrix&from=gh-record-sharing-access-matrix), which owns the policy and any exception to it.
+- [Software and technology](https://fullypowered.ai/industries/software-technology/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-record-sharing-access-matrix&from=gh-record-sharing-access-matrix), where partner and customer portals put external users into the CRM.
+- [Professional services](https://fullypowered.ai/industries/professional-services/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-record-sharing-access-matrix&from=gh-record-sharing-access-matrix), where who sees which client record is a daily question.
+- [Manufacturing](https://fullypowered.ai/industries/manufacturing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-record-sharing-access-matrix&from=gh-record-sharing-access-matrix), where distributors and partners reach opportunity and quote records.
+- [Established businesses](https://fullypowered.ai/situations/established-businesses/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-record-sharing-access-matrix&from=gh-record-sharing-access-matrix), where sharing settings have grown over years and nobody holds the whole picture.
+- [Acquisitions and integration](https://fullypowered.ai/situations/acquisitions-and-integration/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-record-sharing-access-matrix&from=gh-record-sharing-access-matrix), when two sets of access rules have to become one.
 
-The reading of user accounts against staff lists is a different piece of work; [learning system access review](https://fullypowered.ai/workflows/learning-system-access-review/) does it for a learning system. This workflow template reads sharing settings against a policy and looks at no individual's account.
+The reading of user accounts against staff lists is a different piece of work; [learning system access review](https://fullypowered.ai/workflows/learning-system-access-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-record-sharing-access-matrix&from=gh-record-sharing-access-matrix) does it for a learning system. This workflow template reads sharing settings against a policy and looks at no individual's account.
 
 ## What has to change for your company
 
@@ -53,7 +60,7 @@ Name your record types and roles exactly as your CRM does, because the assistant
 
 FullyPowered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026, and the record of that run is published with it. The run was not blind: the model had seen the example's published output before it worked the matrix again from the inputs. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on a sharing change your administrator has already worked through, with cases written in advance: a role missing from the export, two export rows that disagree, an inherited setting whose parent also changes, an exception with no owner. The administrator checks every row against the CRM before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up.
+Testing in your environment means running it on a sharing change your administrator has already worked through, with cases written in advance: a role missing from the export, two export rows that disagree, an inherited setting whose parent also changes, an exception with no owner. The administrator checks every row against the CRM before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-record-sharing-access-matrix&from=gh-record-sharing-access-matrix) sets those cases up.
 
 - Written by FullyPowered AI.
 - Sources and rights reviewed.
@@ -80,10 +87,10 @@ Testing in your environment means running it on a sharing change your administra
 
 ## Related workflow templates
 
-- [Learning system access review](https://fullypowered.ai/workflows/learning-system-access-review/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/)
-- [Temporary change register](https://fullypowered.ai/workflows/temporary-change-register/)
+- [Learning system access review](https://fullypowered.ai/workflows/learning-system-access-review/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-record-sharing-access-matrix&from=gh-record-sharing-access-matrix)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-record-sharing-access-matrix&from=gh-record-sharing-access-matrix)
+- [Temporary change register](https://fullypowered.ai/workflows/temporary-change-register/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-record-sharing-access-matrix&from=gh-record-sharing-access-matrix)
 
 ## Make it yours
 
-This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/).
+This workflow template is an example and a starting point. FullyPowered AI adapts it to how your company works, proves it on real work and rolls it out to the roles that use it. We can also build any other workflow for your company, including one that runs several steps, in a Workflow Sprint or a scoped implementation. [Talk with us](https://fullypowered.ai/contact/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-record-sharing-access-matrix&from=gh-record-sharing-access-matrix).
