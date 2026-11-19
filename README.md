@@ -5,7 +5,7 @@ FullyPowered Workflow Templates for operations and systems teams turn the AI you
 We are FullyPowered AI. We build AI workflows for companies, and these are the templates we start from. We publish them because a good starting point should be open to everyone. Copy one. Change it. Make it yours.
 
 > [!TIP]
-> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** These are templates, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See more examples for operations and systems teams](https://fullypowered.ai/functions/business-systems-and-integrations/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-readme&from=gh-business-systems-readme) · [Have one built for your team](https://fullypowered.ai/pricing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-readme&from=gh-business-systems-readme) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** These are templates, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See more examples for operations and systems teams](https://fullypowered.ai/functions/business-systems-and-integrations/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-readme&from=gh-business-systems-readme) · [Have one built for your team](https://fullypowered.ai/pricing/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-readme&from=gh-business-systems-readme). Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
 **Who this is for**
 
@@ -26,7 +26,17 @@ We are FullyPowered AI. We build AI workflows for companies, and these are the t
 1. **Map your systems with an assistant you already use.** Open ChatGPT, Claude, Copilot or Gemini. Copy the text below into a new chat. Replace the square brackets with a plain list of your systems and how data moves between them. Typed notes are enough. You do not need a file, and you give no passwords.
 
    ```text
-   You are helping an operations lead build a map of the company's business systems. I will paste a list of systems, a list of how data moves between them, and notes from conversations. Do not ask for any password or login. Do not decide anything for me. For each system, show what it is used for, which kinds of record it is the record of truth for, who owns it and who runs it. List every flow of data with its method, how often it runs and who owns it. Draw the flows in plain text. Mark gaps and duplicate records of truth. Turn every unknown into a question for the person who can answer it. I decide which system is the record, who owns what and what happens next. Nothing is connected or changed. My systems: [list]. My flows: [list]. My notes: [notes].
+   You are helping an operations lead build a map of the company's business
+   systems. I will paste a list of systems, a list of how data moves
+   between them, and notes from conversations. Do not ask for any password
+   or login. Do not decide anything for me. For each system, show what it
+   is used for, which kinds of record it is the record of truth for, who
+   owns it and who runs it. List every flow of data with its method, how
+   often it runs and who owns it. Draw the flows in plain text. Mark gaps
+   and duplicate records of truth. Turn every unknown into a question for
+   the person who can answer it. I decide which system is the record, who
+   owns what and what happens next. Nothing is connected or changed. My
+   systems: [list]. My flows: [list]. My notes: [notes].
    ```
 
 2. Read what comes back. It marks what it checked and what is left for you. What comes out, with invented data:

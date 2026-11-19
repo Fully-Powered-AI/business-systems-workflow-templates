@@ -3,7 +3,7 @@
 Lay the current CRM sharing setup beside the approved policy by record type and role. Unknowns are marked, and owners decide.
 
 > [!TIP]
-> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Record sharing access matrix on our website](https://fullypowered.ai/workflows/record-sharing-access-matrix/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-record-sharing-access-matrix&from=gh-record-sharing-access-matrix) Not sure where to start? Email hello@fullypowered.ai and a person will answer.
+> **Missing a template that is not listed here, or want these customized for your organization? Reach out to us.** This is a template, made to be customized and deployed. FullyPowered AI customizes and builds AI workflows, connects them to your business systems, installs them in your agents and puts them in the hands of the people who own the work. [See Record sharing access matrix on our website](https://fullypowered.ai/workflows/record-sharing-access-matrix/?utm_source=github&utm_medium=referral&utm_campaign=workflow-collections&utm_content=business-systems-record-sharing-access-matrix&from=gh-record-sharing-access-matrix). Not sure where to start? Email hello@fullypowered.ai and a person will answer.
 
 **Quick start**
 
